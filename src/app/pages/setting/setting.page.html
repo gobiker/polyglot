@@ -1,0 +1,129 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button size="large" (click)="goBack()">
+        <ion-icon name="chevron-back-outline"></ion-icon>
+        {{getUiLabel(UIL.Save)}}
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+    <ion-item>
+      <ion-label><b>{{getUiLabel(UIL.DisplayLang)}}</b></ion-label>
+      <ion-select #langsel [(ngModel)]="this.cacheService.settings.langUi" interface="action-sheet"
+        [cancelText]="getUiLabel(UIL.Cancel)">
+        <ion-select-option *ngFor="let lang of this.cacheService.settings.langSettings" [value]="lang.langData">
+          {{languageService.getLangDataLabel(lang.langData)}}
+        </ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-card>
+
+
+  <ion-reorder-group (ionItemReorder)="doReorder($event)" disabled="false">
+    <!--<app-language-setting *ngFor="let lang of settings.langSettings" [langSetting]="lang"
+      [langUi]="this.settings.langUi">
+
+    </app-language-setting>-->
+
+    <ion-item *ngFor="let lang of this.cacheService.settings.langSettings">
+      <ion-grid class="ion-no-padding">
+        <ion-row>
+          <ion-col size="7">
+            <ion-item>
+              <ion-checkbox [(ngModel)]="lang.active"></ion-checkbox>
+              <ion-label> &nbsp; &nbsp;{{this.getLangLabel(lang.langData)}}</ion-label>
+            </ion-item>
+          </ion-col>
+          <ion-col size="5" >
+            <ion-item [disabled]="!lang.active">
+              <ion-icon name="eye-off-outline"></ion-icon>
+              <ion-checkbox slot="end" [(ngModel)]="lang.hide"></ion-checkbox>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="6">
+            <ion-select [disabled]="!lang.active || this.languageService.getDialectList(lang.langData).length < 2" style="max-width: 100%; width: 100%" [(ngModel)]="lang.langSpeechIndex" interface="action-sheet" [cancelText]="getUiLabel(UIL.Cancel)">
+              <ion-select-option *ngFor="let ls of this.languageService.getDialectList(lang.langData)" [value]="ls">
+                {{languageService.getDialectLabel(lang.langData, cacheService.settings.langUi, ls)}}
+              </ion-select-option>
+            </ion-select>
+          </ion-col>
+  
+          <ion-col size="6"> 
+            <ion-item [disabled]="!lang.active">
+              <ion-icon name="speedometer-outline"></ion-icon>
+              <ion-select style="max-width: 100%; width: 100%" [(ngModel)]="lang.speakRate" interface="action-sheet" [cancelText]="getUiLabel(UIL.Cancel)">
+                <ion-select-option [value]="1">1.00x</ion-select-option>
+                <ion-select-option [value]="0.75">0.75x</ion-select-option>
+                <ion-select-option [value]="0.5">0.50x</ion-select-option>
+                <ion-select-option [value]="0.25">0.25x</ion-select-option>
+              </ion-select>
+            </ion-item>
+            
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <ion-reorder slot="end"></ion-reorder>
+
+    </ion-item>
+
+
+  </ion-reorder-group>
+
+  <ion-card padding>
+    <ion-row>
+      <ion-col>
+        <ion-chip>
+          {{getUiLabel(UIL.DisplayImageInCard)}} &nbsp; &nbsp;
+          <ion-checkbox [(ngModel)]="this.cacheService.settings.showImageCard"></ion-checkbox>
+        </ion-chip>
+      </ion-col>
+      <ion-col>
+        <ion-chip>
+          {{getUiLabel(UIL.DisplayImageInList)}} &nbsp; &nbsp;
+          <ion-checkbox [(ngModel)]="this.cacheService.settings.showImageList"></ion-checkbox>
+        </ion-chip>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+
+  <ion-card padding>
+    <ion-card-header>
+      <ion-card-title>{{getUiLabel(UIL.LeniencyChinese)}}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <div>{{getUiLabel(UIL.TraceOver)}}</div>
+      <ion-item>
+        <ion-range [(ngModel)]="this.cacheService.settings.miaohongLeniency" min="0.5" max="1" step="0.05" snaps="true">
+        </ion-range>
+      </ion-item>
+      <div class="hr"> </div>
+      <div>{{getUiLabel(UIL.Dictation)}}</div>
+      <ion-item>
+        <ion-range [(ngModel)]="this.cacheService.settings.moxieLeniency" min="0.5" max="1" step="0.05" snaps="true">
+        </ion-range>
+      </ion-item>
+    </ion-card-content>
+
+
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <ion-icon name="moon"></ion-icon>
+      <ion-label>&nbsp; &nbsp;{{getUiLabel(UIL.DarkMode)}}</ion-label>
+      <ion-toggle [(ngModel)]="this.cacheService.settings.darkMode" (ionChange)="onChangeDarkMode()" slot="end"></ion-toggle>
+    </ion-item>
+  </ion-card>
+  
+
+
+</ion-content>

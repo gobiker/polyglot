@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button>
+      </ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <br>
+  <br>
+  <form #hanziForm="ngForm">
+    <ion-item>
+      <ion-input name="hanzi" #hanzi="ngModel" clearInput autofocus required pattern="[\u4e00-\u9fa5]+"
+        [placeholder]="cacheService.getUiLabel(UIL.InputAnyChinese)" [(ngModel)]="zis"></ion-input>
+    </ion-item>
+    <br>
+    <br>
+    <div [hidden]="hanzi.valid || hanzi.pristine" 
+    style="background-color: red"
+    class="container-with-centered-content">
+      {{this.cacheService.getUiLabel(UIL.OnlyChinese)}}
+    </div>
+  </form>
+
+  <br>
+  <br>
+  <ion-button [disabled]="!hanziForm.form.valid" expand="full" (click)="onClick()">OK</ion-button>
+</ion-content>

@@ -1,0 +1,44 @@
+{
+    "langUi": 1,
+    "miaohongLeniency": 0.7,
+    "moxieLeniency": 1,
+    "showImageCard": true,
+    "showImageList": true,
+    "darkMode": true,
+    "langSettings":
+    [
+        {
+            "active": true,
+            "hide": false,
+            "langData": 1,
+            "langSpeechIndex": 0,
+            "position": 1,
+            "speakRate": 1
+        },
+        {
+            "active": false,
+            "hide": true,
+            "langData": 2,
+            "langSpeechIndex": 0,
+            "position": 2,
+            "speakRate": 1
+        },
+        {
+            "active": true,
+            "hide": false,
+            "langData": 3,
+            "langSpeechIndex": 0,
+            "position": 3,
+            "speakRate": 1
+        },
+        {
+            "active": true,
+            "hide": false,
+            "langData": 4,
+            "langSpeechIndex": 0,
+            "position": 4,
+            "speakRate": 1
+        }
+    ]
+    
+}
