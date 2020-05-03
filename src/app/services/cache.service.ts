@@ -12,8 +12,6 @@ export class CacheService {
   constructor() {
     console.log('Reading local json files');
     console.log(this.settings);
-    document.body.classList.toggle('dark', this.settings.darkMode);
-
    }
 
    getUiLabel(key: UIL): string {

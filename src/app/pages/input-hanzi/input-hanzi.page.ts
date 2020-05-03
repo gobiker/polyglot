@@ -22,7 +22,8 @@ export class InputHanziPage {
     }
     const modal = await this.modalController.create({
       component: HanziPopupComponent,
-      componentProps: { word: this.zis }
+      componentProps: { word: this.zis },
+      cssClass: "modal-fullscreen"
     });
     return await modal.present();
   }

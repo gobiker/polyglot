@@ -1,3 +1,4 @@
+import { CacheService } from './../../services/cache.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,7 +8,10 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(public cacheService: CacheService) {
+    document.body.classList.toggle('dark', this.cacheService.settings.darkMode);
+
+  }
 
   onClick() {
     
