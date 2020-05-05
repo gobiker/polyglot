@@ -1,9 +1,27 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>card</ion-title>
+    <ion-back-button slot="start"></ion-back-button>
+    <ion-button slot="end" (click)="this.lastCard()">
+      <ion-icon name="arrow-undo-outline"></ion-icon>
+    </ion-button>
+    <ion-button slot="end" (click)="this.nextCard()">
+      <ion-icon name="arrow-redo-outline"></ion-icon>
+    </ion-button>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <ion-card *ngFor="let w of this.words" class="ion-no-padding">
+    <ion-toolbar mode="ios">
+      <ion-button slot="start" fill="outline" (click)="onClickSpeech(w)">
+        <ion-icon name="megaphone-outline"></ion-icon>
+      </ion-button>
+      <ion-title>{{cacheService.getLangLabelUi(w.langData)}}</ion-title>
+      <ion-button slot="end" *ngIf="w.isChinese" fill="outline" (click)="onClickChinese(w.content)">
+        <ion-icon name="brush"></ion-icon>
+      </ion-button>
+    </ion-toolbar>
 
+    <app-scratch-card [word]="w.content" [scratch]="w.hide"></app-scratch-card>
+  </ion-card>
 </ion-content>

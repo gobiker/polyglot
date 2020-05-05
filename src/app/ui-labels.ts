@@ -36,6 +36,7 @@ export enum UIL {
   Outline,
   Write,
   Filter,
+  AllWords,
   SelectAll,
   ClearAll,
   DisplayLang,
@@ -157,6 +158,7 @@ export const UILABELS: { id: UIL, en: string, zh_CN: string, zh_TW: string, de: 
   { id: UIL.AddWord, en: 'Add Word', zh_CN: '添加单词', zh_TW: '添加單詞', de: 'Wort hinzufügen' },
   { id: UIL.DeleteImage, en: 'Delete Image', zh_CN: '删除图像', zh_TW: '刪除圖像', de: 'Bild löschen' },
   { id: UIL.DarkMode, en: 'Dark Mode', zh_CN: '暗黑界面', zh_TW: '暗黑界面', de: 'Dark Mode' },
+  { id: UIL.AllWords, en: 'All Words', zh_CN: '全部单词', zh_TW: '全部單詞', de: 'Alle Wörter' },
 
 ];
 

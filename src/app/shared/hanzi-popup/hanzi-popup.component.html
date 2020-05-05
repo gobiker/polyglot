@@ -46,7 +46,7 @@
       <div #chartarget id="chartarget">
       </div>
 
-      <ion-toolbar>
+      <ion-toolbar *ngIf="this.chars.length > 1">
         <ion-buttons slot="start">
           <ion-button (click)="this.runLastChar()"><ion-icon name="arrow-undo-outline"></ion-icon></ion-button>
         </ion-buttons>

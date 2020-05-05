@@ -11,33 +11,25 @@
             "active": true,
             "hide": false,
             "langData": 1,
-            "langSpeechIndex": 0,
-            "position": 1,
-            "speakRate": 1
+            "langSpeechIndex": 0
         },
         {
-            "active": false,
+            "active": true,
             "hide": true,
             "langData": 2,
-            "langSpeechIndex": 0,
-            "position": 2,
-            "speakRate": 1
+            "langSpeechIndex": 1
         },
         {
             "active": true,
-            "hide": false,
+            "hide": true,
             "langData": 3,
-            "langSpeechIndex": 0,
-            "position": 3,
-            "speakRate": 1
+            "langSpeechIndex": 0
         },
         {
             "active": true,
-            "hide": false,
+            "hide": true,
             "langData": 4,
-            "langSpeechIndex": 0,
-            "position": 4,
-            "speakRate": 1
+            "langSpeechIndex": 0
         }
     ]
     

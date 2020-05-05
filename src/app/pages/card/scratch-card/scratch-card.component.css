@@ -1,0 +1,9 @@
+.word {
+    color: white;
+    background-color: rgb(66, 33, 33);
+    text-align: center;
+    line-height: 80px;
+    height: 80px;
+    white-space: nowrap;
+
+  }

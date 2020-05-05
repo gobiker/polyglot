@@ -1,0 +1,570 @@
+{
+    "version": 1,
+    "categoryList":
+    [
+        {
+          "id": 1,
+          "parentId": 0,
+          "cns": "数字",
+          "cnt": "數字",
+          "en": "Number",
+          "de": "Zahlen"
+        },
+        {
+          "id": 2,
+          "parentId": 0,
+          "cns": "月份",
+          "cnt": "月份",
+          "en": "Monat",
+          "de": "Der Monat"
+        },
+        {
+          "id": 3,
+          "parentId": 0,
+          "cns": "星期",
+          "cnt": "星期",
+          "en": "Week",
+          "de": "Die Woche"
+        },
+        {
+          "id": 4,
+          "parentId": 0,
+          "cns": "时间",
+          "cnt": "時間",
+          "en": "Time",
+          "de": "Die Zeit"
+        },
+        {
+          "id": 5,
+          "parentId": 0,
+          "cns": "人生阶段",
+          "cnt": "人生階段",
+          "en": "Life’s phrases",
+          "de": "Lebensphasen"
+        },
+        {
+          "id": 6,
+          "parentId": 0,
+          "cns": "人体部位",
+          "cnt": "人體部位",
+          "en": "Body",
+          "de": "Der Körper"
+        },
+        {
+          "id": 7,
+          "parentId": 0,
+          "cns": "服装",
+          "cnt": "服裝",
+          "en": "Clothing",
+          "de": "Die Kleidung"
+        }
+       ],
+       "cardList":
+       [
+        {
+          "id": 1,
+          "catId": 1,
+          "cns": "一",
+          "cnt": "一",
+          "en": "One",
+          "de": "Eins",
+          "deGen": 0
+        },
+        {
+          "id": 2,
+          "catId": 1,
+          "cns": "二",
+          "cnt": "二",
+          "en": "Two",
+          "de": "Zwei",
+          "deGen": 0
+        },
+        {
+          "id": 3,
+          "catId": 1,
+          "cns": "三",
+          "cnt": "三",
+          "en": "Three",
+          "de": "Drei",
+          "deGen": 0
+        },
+        {
+          "id": 4,
+          "catId": 1,
+          "cns": "四",
+          "cnt": "四",
+          "en": "Four",
+          "de": "Vier",
+          "deGen": 0
+        },
+        {
+          "id": 5,
+          "catId": 1,
+          "cns": "五",
+          "cnt": "五",
+          "en": "Five",
+          "de": "Fünf",
+          "deGen": 0
+        },
+        {
+          "id": 6,
+          "catId": 1,
+          "cns": "六",
+          "cnt": "六",
+          "en": "Six",
+          "de": "Sechs",
+          "deGen": 0
+        },
+        {
+          "id": 7,
+          "catId": 1,
+          "cns": "七",
+          "cnt": "七",
+          "en": "Seven",
+          "de": "Sieben",
+          "deGen": 0
+        },
+        {
+          "id": 8,
+          "catId": 1,
+          "cns": "八",
+          "cnt": "八",
+          "en": "Eight",
+          "de": "Acht",
+          "deGen": 0
+        },
+        {
+          "id": 9,
+          "catId": 1,
+          "cns": "九",
+          "cnt": "九",
+          "en": "Nine",
+          "de": "Neun",
+          "deGen": 0
+        },
+        {
+          "id": 10,
+          "catId": 1,
+          "cns": "十",
+          "cnt": "十",
+          "en": "Ten",
+          "de": "Zehn",
+          "deGen": 0
+        },
+        {
+          "id": 11,
+          "catId": 1,
+          "cns": "十一",
+          "cnt": "十一",
+          "en": "eleven",
+          "de": "Elf",
+          "deGen": 0
+        },
+        {
+          "id": 12,
+          "catId": 1,
+          "cns": "十二",
+          "cnt": "十二",
+          "en": "twelve",
+          "de": "Zwölf",
+          "deGen": 0
+        },
+        {
+          "id": 13,
+          "catId": 1,
+          "cns": "十三",
+          "cnt": "十三",
+          "en": "thirteen",
+          "de": "Dreizehn",
+          "deGen": 0
+        },
+        {
+          "id": 14,
+          "catId": 1,
+          "cns": "十四",
+          "cnt": "十四",
+          "en": "fourteen",
+          "de": "Vierzehn",
+          "deGen": 0
+        },
+        {
+          "id": 15,
+          "catId": 1,
+          "cns": "十五",
+          "cnt": "十五",
+          "en": "fifteen",
+          "de": "Fünfzehn",
+          "deGen": 0
+        },
+        {
+          "id": 16,
+          "catId": 1,
+          "cns": "十六",
+          "cnt": "十六",
+          "en": "sixteen",
+          "de": "Sechzehn",
+          "deGen": 0
+        },
+        {
+          "id": 17,
+          "catId": 1,
+          "cns": "十七",
+          "cnt": "十七",
+          "en": "Seventeen",
+          "de": "Siebzehn",
+          "deGen": 0
+        },
+        {
+          "id": 18,
+          "catId": 1,
+          "cns": "十八",
+          "cnt": "十八",
+          "en": "eighteen",
+          "de": "Achtzehn",
+          "deGen": 0
+        },
+        {
+          "id": 19,
+          "catId": 1,
+          "cns": "十九",
+          "cnt": "十九",
+          "en": "Nineteen",
+          "de": "Neunzehn",
+          "deGen": 0
+        },
+        {
+          "id": 20,
+          "catId": 1,
+          "cns": "二十",
+          "cnt": "二十",
+          "en": "twenty",
+          "de": "Zwanzig",
+          "deGen": 0
+        },
+        {
+          "id": 21,
+          "catId": 1,
+          "cns": "二十一",
+          "cnt": "二十一",
+          "en": "twenty one",
+          "de": "Einundzwanzig",
+          "deGen": 0
+        },
+        {
+          "id": 22,
+          "catId": 1,
+          "cns": "三十",
+          "cnt": "三十",
+          "en": "thirty",
+          "de": "Dreißig",
+          "deGen": 0
+        },
+        {
+          "id": 23,
+          "catId": 1,
+          "cns": "四十",
+          "cnt": "四十",
+          "en": "forty",
+          "de": "Vierzig",
+          "deGen": 0
+        },
+        {
+          "id": 24,
+          "catId": 1,
+          "cns": "五十",
+          "cnt": "五十",
+          "en": "fifty",
+          "de": "Fünfzig",
+          "deGen": 0
+        },
+        {
+          "id": 25,
+          "catId": 1,
+          "cns": "六十",
+          "cnt": "六十",
+          "en": "sixty",
+          "de": "Sechzig",
+          "deGen": 0
+        },
+        {
+          "id": 26,
+          "catId": 1,
+          "cns": "七十",
+          "cnt": "七十",
+          "en": "seventy",
+          "de": "Siebzig",
+          "deGen": 0
+        },
+        {
+          "id": 27,
+          "catId": 1,
+          "cns": "八十",
+          "cnt": "八十",
+          "en": "eighty",
+          "de": "Achtzig",
+          "deGen": 0
+        },
+        {
+          "id": 28,
+          "catId": 1,
+          "cns": "九十",
+          "cnt": "九十",
+          "en": "ninety",
+          "de": "Neunzig",
+          "deGen": 0
+        },
+        {
+          "id": 29,
+          "catId": 1,
+          "cns": "一百",
+          "cnt": "一百",
+          "en": "hundred",
+          "de": "Einhundert",
+          "deGen": 0
+        },
+        {
+          "id": 30,
+          "catId": 1,
+          "cns": "二百五十六",
+          "cnt": "二百五十六",
+          "en": "two hundred fifty-six",
+          "de": "Zweihundertsechsundfünfzig",
+          "deGen": 0
+        },
+        {
+          "id": 31,
+          "catId": 1,
+          "cns": "一千",
+          "cnt": "一千",
+          "en": "one thousand",
+          "de": "Eintausend",
+          "deGen": 0
+        },
+        {
+          "id": 32,
+          "catId": 1,
+          "cns": "一万",
+          "cnt": "一萬",
+          "en": "ten thousand",
+          "de": "Zehntausend",
+          "deGen": 0
+        },
+        {
+          "id": 33,
+          "catId": 1,
+          "cns": "一百万",
+          "cnt": "一百萬",
+          "en": "a million",
+          "de": "Eine Million",
+          "deGen": 0
+        },
+        {
+          "id": 34,
+          "catId": 1,
+          "cns": "一亿",
+          "cnt": "一億",
+          "en": "100 million",
+          "de": "100 Millionen",
+          "deGen": 0
+        },
+        {
+          "id": 35,
+          "catId": 1,
+          "cns": "十亿",
+          "cnt": "十億",
+          "en": "a billion",
+          "de": "Eine Milliarde",
+          "deGen": 0
+        },
+        {
+          "id": 36,
+          "catId": 1,
+          "cns": "万亿",
+          "cnt": "萬億",
+          "en": "a trillion",
+          "de": "Eine Billionen",
+          "deGen": 0
+        },
+        {
+          "id": 37,
+          "catId": 2,
+          "cns": "一月",
+          "cnt": "一月",
+          "en": "January",
+          "de": "Januar",
+          "deGen": 1
+        },
+        {
+          "id": 38,
+          "catId": 2,
+          "cns": "二月",
+          "cnt": "二月",
+          "en": "February",
+          "de": "Februar",
+          "deGen": 1
+        },
+        {
+          "id": 39,
+          "catId": 2,
+          "cns": "三月",
+          "cnt": "三月",
+          "en": "March",
+          "de": "März",
+          "deGen": 1
+        },
+        {
+          "id": 40,
+          "catId": 2,
+          "cns": "四月",
+          "cnt": "四月",
+          "en": "April",
+          "de": "April",
+          "deGen": 1
+        },
+        {
+          "id": 41,
+          "catId": 2,
+          "cns": "五月",
+          "cnt": "五月",
+          "en": "May",
+          "de": "Mai",
+          "deGen": 1
+        },
+        {
+          "id": 42,
+          "catId": 2,
+          "cns": "六月",
+          "cnt": "六月",
+          "en": "June",
+          "de": "Juni",
+          "deGen": 1
+        },
+        {
+          "id": 43,
+          "catId": 2,
+          "cns": "七月",
+          "cnt": "七月",
+          "en": "July",
+          "de": "Juli",
+          "deGen": 1
+        },
+        {
+          "id": 44,
+          "catId": 2,
+          "cns": "八月",
+          "cnt": "八月",
+          "en": "August",
+          "de": "August",
+          "deGen": 1
+        },
+        {
+          "id": 45,
+          "catId": 2,
+          "cns": "九月",
+          "cnt": "九月",
+          "en": "September",
+          "de": "September",
+          "deGen": 1
+        },
+        {
+          "id": 46,
+          "catId": 2,
+          "cns": "十月",
+          "cnt": "十月",
+          "en": "October",
+          "de": "Oktober",
+          "deGen": 1
+        },
+        {
+          "id": 47,
+          "catId": 2,
+          "cns": "十一月",
+          "cnt": "十一月",
+          "en": "November",
+          "de": "November",
+          "deGen": 1
+        },
+        {
+          "id": 48,
+          "catId": 2,
+          "cns": "十二月",
+          "cnt": "十二月",
+          "en": "December",
+          "de": "Dezember",
+          "deGen": 1
+        },
+        {
+          "id": 49,
+          "catId": 3,
+          "cns": "星期一",
+          "cnt": "星期一",
+          "en": "Monday",
+          "de": "Montag",
+          "deGen": 1
+        },
+        {
+          "id": 50,
+          "catId": 3,
+          "cns": "星期二",
+          "cnt": "星期二",
+          "en": "Tuesday",
+          "de": "Dienstag",
+          "deGen": 1
+        },
+        {
+          "id": 51,
+          "catId": 3,
+          "cns": "星期三",
+          "cnt": "星期三",
+          "en": "Wednesday",
+          "de": "Mittwoch",
+          "deGen": 1
+        },
+        {
+          "id": 52,
+          "catId": 3,
+          "cns": "星期四",
+          "cnt": "星期四",
+          "en": "Thursday",
+          "de": "Donnerstag",
+          "deGen": 1
+        },
+        {
+          "id": 53,
+          "catId": 3,
+          "cns": "星期五",
+          "cnt": "星期五",
+          "en": "Friday",
+          "de": "Freitag",
+          "deGen": 1
+        },
+        {
+          "id": 54,
+          "catId": 3,
+          "cns": "星期六",
+          "cnt": "星期六",
+          "en": "Saturday",
+          "de": "Samstag",
+          "deGen": 1
+        },
+        {
+          "id": 55,
+          "catId": 3,
+          "cns": "星期天",
+          "cnt": "星期天",
+          "en": "Sunday",
+          "de": "Sonntag",
+          "deGen": 1
+        },
+        {
+          "id": 56,
+          "catId": 3,
+          "cns": "周末",
+          "cnt": "週末",
+          "en": "weekend",
+          "de": "Wochenende",
+          "deGen": 3
+        }
+       ]
+
+}

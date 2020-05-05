@@ -11,7 +11,6 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "gh-pages": "ionic build --prod -- --base-href 'https://gobiker.github.io/polyglot/' && npx ngh --dir=www/"
-
   },
   "private": true,
   "dependencies": {
@@ -29,7 +28,9 @@
     "@ionic/angular": "^5.0.7",
     "core-js": "^3.6.5",
     "hanzi-writer": "^2.2.2",
+    "ng2-fittext": "^1.2.12",
     "rxjs": "~6.5.5",
+    "scratchcard": "^0.5.6",
     "tslib": "^1.11.1",
     "zone.js": "~0.10.3"
   },

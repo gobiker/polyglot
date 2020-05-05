@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-row align-items-center>
+      <ion-col>
+        <ion-buttons>
+          <ion-button size="large" appDebounceClick (debounceClick)="this.goBack()">
+            <ion-icon slot="start" name="md-arrow-round-back"></ion-icon>
+            {{settingsService.getUiLabel(UIL.Back)}}
+          </ion-button>
+        </ion-buttons>
+      </ion-col>
+
+      <ion-col text-center>
+        <app-color-chooser updateDb="true" [wordLineView]="this.record"></app-color-chooser>
+      </ion-col>
+
+      <ion-col text-end>
+        <ion-button appDebounceClick (debounceClick)="popupEdit()">
+          <ion-icon name="create"></ion-icon>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+
+  <div *ngFor="let lang of settingsService.getActiveLanguages()">
+    <ion-card>
+      <ion-row align-items-center>
+        <ion-col text-start>
+          <ion-button fill="outline" appDebounceClick (debounceClick)="this.toSpeech(lang.wordNr)">
+            <ion-icon name="megaphone"></ion-icon>
+          </ion-button>
+        </ion-col>
+        <ion-col text-center><b>{{settingsService.getLanguageLabel(lang.wordNr)}}</b></ion-col>
+        <ion-col text-end>
+          <ion-button *ngIf="this.isChinese(lang.wordNr)" appDebounceClick (debounceClick)="popupHanzi(lang.wordNr)">
+            学
+          </ion-button>
+        </ion-col>
+      </ion-row>
+      <app-scratch-card [word]="recordsService.getLabel(record, lang.wordNr)" 
+      [scratch]="lang.hide">
+      </app-scratch-card>
+    </ion-card>
+  </div>
+
+
+
+  <ion-fab vertical="bottom" horizontal="start" slot="fixed">
+    <ion-fab-button appDebounceClick (debounceClick)="this.gotoLast()">
+      <ion-icon name="arrow-dropleft"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button appDebounceClick (debounceClick)="this.gotoNext()">
+      <ion-icon name="arrow-dropright"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+
+</ion-content>

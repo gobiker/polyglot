@@ -1,3 +1,4 @@
+import { UIL } from 'src/app/ui-labels';
 import { CacheService } from './../../services/cache.service';
 import { Component } from '@angular/core';
 
@@ -8,6 +9,7 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  UIL = UIL;
   constructor(public cacheService: CacheService) {
     document.body.classList.toggle('dark', this.cacheService.settings.darkMode);
 
