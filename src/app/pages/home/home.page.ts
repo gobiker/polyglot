@@ -12,10 +12,13 @@ export class HomePage {
   UIL = UIL;
   constructor(public cacheService: CacheService) {
     document.body.classList.toggle('dark', this.cacheService.settings.darkMode);
+    this.cacheService.curCards = [];
+    this.cacheService.curIndex = 0;
+    this.cacheService.homeToken = true;
 
   }
 
   onClick() {
-    
+
   }
 }

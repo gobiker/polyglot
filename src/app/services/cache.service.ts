@@ -18,6 +18,7 @@ export class CacheService {
   data: TextData = d;
   curCards: Card[];
   curIndex: number;
+  homeToken: boolean = false;
 
   constructor(public languageService: LanguageService) {
     console.log('Reading local json files');

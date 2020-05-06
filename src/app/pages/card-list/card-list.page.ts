@@ -2,7 +2,6 @@ import { Card } from './../../entities/card';
 import { CacheService } from './../../services/cache.service';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-card-list',
@@ -11,7 +10,6 @@ import { Observable } from 'rxjs';
 })
 export class CardListPage implements OnInit {
 
-  catId: number;
   title: string;
   cards: Card[];
 
@@ -30,9 +28,9 @@ export class CardListPage implements OnInit {
 
   onClick(i: number) {
     this.cacheService.curIndex = i;
-      //this.cacheService.curCards.findIndex(c => c.id === id);
-      console.log("index: " + this.cacheService.curIndex);
-      this.router.navigate(['/card']);
+    //this.cacheService.curCards.findIndex(c => c.id === id);
+    console.log("index: " + this.cacheService.curIndex);
+    this.router.navigate(['/card']);
   }
 
 }

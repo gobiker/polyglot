@@ -3,16 +3,12 @@
     <ion-title>
       {{cacheService.getUiLabel(UIL.Categories)}}
     </ion-title>
-    <ion-buttons slot="start">
-      <ion-button [routerLink]="['/hanzi']">
-        <ion-icon name="brush"></ion-icon>
-      </ion-button>
-    </ion-buttons>
-    <ion-buttons slot="end">
-      <ion-button [routerLink]="['/settings']">
-        <ion-icon name="settings-outline"></ion-icon>
-      </ion-button>
-    </ion-buttons>
+    <ion-button fill="outline" slot="start" [routerLink]="['/hanzi']">
+      <ion-icon name="brush"></ion-icon>
+    </ion-button>
+    <ion-button fill="outline" slot="end" [routerLink]="['/settings']">
+      <ion-icon name="settings-outline"></ion-icon>
+    </ion-button>
   </ion-toolbar>
 </ion-header>
 

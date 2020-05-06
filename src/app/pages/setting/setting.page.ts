@@ -18,9 +18,7 @@ export class SettingPage implements OnInit {
   constructor(private location: Location,
     public languageService: LanguageService,
     public cacheService: CacheService
-  ) { 
-    console.log('in the setting page');
-  }
+  ) { }
 
   ngOnInit() {
   }

@@ -14,7 +14,8 @@ export class InputHanziPage {
   UIL = UIL;
   zis = '';
   constructor(private modalController: ModalController,
-    public cacheService: CacheService) { }
+    public cacheService: CacheService) {
+  }
 
   async onClick() {
     if (this.zis === '') {
