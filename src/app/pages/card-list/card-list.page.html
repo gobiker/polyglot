@@ -1,9 +1,14 @@
 <ion-header>
   <ion-toolbar>
-    <ion-button fill="none" slot="start" [routerLink]="['/home']">
-      <ion-icon name="arrow-back-outline"></ion-icon>
-    </ion-button>
-    <ion-title slot="end">{{this.title}}</ion-title>
+    <ion-row class="ion-align-items-center">
+      <ion-col size="3">
+        <ion-button expand="full" fill="none" [routerLink]="['/home']">
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </ion-button>      </ion-col>
+      <ion-col size="9" class="ion-text-end">
+        <ion-title>{{this.title}}</ion-title>
+      </ion-col>
+    </ion-row>
   </ion-toolbar>
 </ion-header>
 
