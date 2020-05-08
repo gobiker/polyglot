@@ -1,0 +1,74 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-button size="large" fill="none" (click)="this.onClose()">
+            <ion-icon name="close-outline"></ion-icon>
+        </ion-button>
+        <ion-title slot="end">
+            {{this.cacheService.getUiLabel(UIL.Help)}}
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content>
+    <div *ngIf="this.cacheService.settings.langUi===LangData.cns">
+        <ion-card class="ion-padding-vertical">
+            <ion-title class="ion-text-center"> {{this.cacheService.getUiLabel(UIL.ScratchCardSettings)}}</ion-title>
+            <ion-item>语言前的<ion-icon name="checkbox"></ion-icon>: 启用或禁用此语言</ion-item>
+            <ion-item>
+                <ion-icon name="eye-off-outline"></ion-icon>
+                <ion-icon name="checkbox"></ion-icon>:
+                是否遮蔽住此语言的单词
+            </ion-item>
+            <ion-item>拖动<ion-icon name="reorder-two"></ion-icon>
+                可重新排列语言的显示顺序</ion-item>
+            <ion-item>
+                语言下方可选择方言。（注意: 某些浏览器和平台不支持发音功能或只支持部分方言）
+            </ion-item>
+            <br>
+        </ion-card>
+        <ion-card class="ion-padding-vertical">
+            <ion-title class="ion-text-center">{{this.cacheService.getUiLabel(UIL.LeniencyChinese)}}</ion-title>
+            <br>
+            <ion-item>
+                在进行汉字描红或默写时，容错率越高，程序判定为正确的标准越宽松，
+                也就是说越容易通过。通常默写的容错率要高于描红，因为难度更大。
+            </ion-item>
+            <br>
+        </ion-card>
+    </div>
+
+    <div *ngIf="this.cacheService.settings.langUi===LangData.cnt">
+        <ion-card class="ion-padding-vertical">
+            <ion-title class="ion-text-center">{{this.cacheService.getUiLabel(UIL.ScratchCardSettings)}}</ion-title>
+            <ion-item>語言前的<ion-icon name="checkbox"></ion-icon>: 啟用或禁用此語言
+            </ion-item>
+            <ion-item>
+                <ion-icon name="eye-off-outline"></ion-icon>
+                <ion-icon name="checkbox"></ion-icon>
+                : 是否遮蔽住此語言的單詞
+            </ion-item>
+            <ion-item>拖動<ion-icon name="reorder-two"></ion-icon>
+                可重新排列語言的顯示順序</ion-item>
+            <ion-item>
+                語言下方可選擇方言。 （注意: 某些瀏覽器和平台不支持發音功能或只支持部分方言）
+            </ion-item>
+            <br>
+        </ion-card>
+        <ion-card class="ion-padding-vertical">
+            <ion-title class="ion-text-center">{{this.cacheService.getUiLabel(UIL.LeniencyChinese)}}</ion-title>
+            <br>
+            <ion-item>
+                在進行漢字描紅或默寫時，容錯率越高，程序判定為正確的標準越寬鬆，
+                也就是說越容易通過。通常默寫的容錯率要高於描紅，因為難度更大
+            </ion-item>
+            <br>
+        </ion-card>
+    </div>
+
+    <div *ngIf="this.cacheService.settings.langUi===LangData.en">
+        to be continued...
+    </div>
+
+    <div *ngIf="this.cacheService.settings.langUi===LangData.de">
+        Fortsetzung folgt...
+    </div>
+</ion-content>

@@ -55,7 +55,7 @@ export class LanguageService {
       else return "en-US";
     }
     if (l === LangData.cns || l === LangData.cnt) {
-      if (i === 0) return "zh-TW";
+      if (i === 0) return "zh-CN";
       else return "zh-HK";
     }
     if (l === LangData.de) return "de-DE";

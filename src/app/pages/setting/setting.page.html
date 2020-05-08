@@ -1,16 +1,18 @@
 <ion-header>
   <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-button size="large" (click)="goBack()">
-        <ion-icon name="chevron-back-outline"></ion-icon>
-        {{getUiLabel(UIL.Save)}}
-      </ion-button>
-    </ion-buttons>
+    <ion-button slot="start" fill="none" (click)="goBack()">
+      <ion-icon name="chevron-back-outline"></ion-icon>
+      {{getUiLabel(UIL.Save)}}
+    </ion-button>
+    <ion-button size="large" slot="end" fill="none" (click)="onClickHelp()">
+      <ion-icon name="help-circle"></ion-icon>
+    </ion-button>
   </ion-toolbar>
 
 </ion-header>
 
-<ion-content padding>
+<ion-content>
+
   <ion-card>
     <ion-item>
       <ion-label><b>{{getUiLabel(UIL.DisplayLang)}}</b></ion-label>
@@ -22,28 +24,31 @@
       </ion-select>
     </ion-item>
   </ion-card>
-
-
+  <ion-toolbar class="ion-text-center">
+    <b> {{getUiLabel(UIL.ScratchCardSettings)}}</b>
+  </ion-toolbar>
   <ion-reorder-group (ionItemReorder)="doReorder($event)" disabled="false">
-    <!--<app-language-setting *ngFor="let lang of settings.langSettings" [langSetting]="lang"
-      [langUi]="this.settings.langUi">
-
-    </app-language-setting>-->
 
     <ion-item *ngFor="let lang of this.cacheService.settings.langSettings">
       <ion-grid class="ion-no-padding">
         <ion-row>
-          <ion-col size="auto">
-            <ion-item>
+          <ion-col size="7">
+            <ion-item class="ion-no-padding">
               <ion-checkbox [(ngModel)]="lang.active"></ion-checkbox>
               <ion-label> &nbsp; &nbsp;{{this.getLangLabel(lang.langData)}}</ion-label>
             </ion-item>
           </ion-col>
-
+          <ion-col size="5">
+            <ion-item [disabled]="!lang.active" class="ion-no-padding">
+              <ion-icon slot="end" name="eye-off-outline"></ion-icon>
+              <ion-checkbox slot="end" [(ngModel)]="lang.hide"></ion-checkbox>
+            </ion-item>
+          </ion-col>
         </ion-row>
 
         <ion-row>
-          <ion-col size="7">
+
+          <ion-col size="auto">
             <ion-select [disabled]="!lang.active || this.languageService.getDialectList(lang.langData).length < 2"
               style="max-width: 100%; width: 100%" [(ngModel)]="lang.langSpeechIndex" interface="action-sheet"
               [cancelText]="getUiLabel(UIL.Cancel)">
@@ -53,21 +58,10 @@
             </ion-select>
           </ion-col>
 
-          <ion-col size="5">
-            <ion-item [disabled]="!lang.active">
-              <ion-icon name="eye-off-outline"></ion-icon>
-              <ion-checkbox slot="end" [(ngModel)]="lang.hide"></ion-checkbox>
-            </ion-item>
-
-          </ion-col>
         </ion-row>
       </ion-grid>
-
       <ion-reorder slot="end"></ion-reorder>
-
     </ion-item>
-
-
   </ion-reorder-group>
 
   <ion-card padding *ngIf="false">
@@ -87,17 +81,16 @@
     </ion-row>
   </ion-card>
 
-  <ion-card padding>
-    <ion-card-header>
-      <ion-card-title>{{getUiLabel(UIL.LeniencyChinese)}}</ion-card-title>
-    </ion-card-header>
+  <ion-card>
+    <ion-toolbar class="ion-text-center">
+      <b> {{getUiLabel(UIL.LeniencyChinese)}}</b>
+    </ion-toolbar>
     <ion-card-content>
       <div>{{getUiLabel(UIL.TraceOver)}}</div>
       <ion-item>
         <ion-range [(ngModel)]="this.cacheService.settings.miaohongLeniency" min="0.5" max="1" step="0.05" snaps="true">
         </ion-range>
       </ion-item>
-      <div class="hr"> </div>
       <div>{{getUiLabel(UIL.Dictation)}}</div>
       <ion-item>
         <ion-range [(ngModel)]="this.cacheService.settings.moxieLeniency" min="0.5" max="1" step="0.05" snaps="true">

@@ -1,9 +1,11 @@
+import { SettingHelpComponent } from './setting-help/setting-help.component';
 import { LangData, getLangDataLabelLocal } from './../../types/lang-data.enum';
 import { CacheService } from './../../services/cache.service';
 import { LanguageService } from './../../services/language.service';
 import { Component, OnInit, Input } from '@angular/core';
 import { Location } from '@angular/common';
 import { UIL, getUiLabel } from 'src/app/ui-labels';
+import { ModalController } from '@ionic/angular';
 
 @Component({
   selector: 'app-setting',
@@ -17,7 +19,8 @@ export class SettingPage implements OnInit {
 
   constructor(private location: Location,
     public languageService: LanguageService,
-    public cacheService: CacheService
+    public cacheService: CacheService,
+    private modalController: ModalController
   ) { }
 
   ngOnInit() {
@@ -51,10 +54,16 @@ export class SettingPage implements OnInit {
     ev.detail.complete(this.cacheService.settings.langSettings);
   }
 
-  onChangeDarkMode(){
-    
+  onChangeDarkMode() {
     document.body.classList.toggle('dark', this.cacheService.settings.darkMode);
- 
   }
 
+  async onClickHelp() {
+    const modal = await this.modalController.create({
+      component: SettingHelpComponent,
+      cssClass: "modal-fullscreen"
+    });
+    return await modal.present();
+  }
 }
+

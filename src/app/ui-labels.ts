@@ -56,7 +56,9 @@ export enum UIL {
   DeleteCard,
   AddWord,
   DeleteImage,
-  DarkMode
+  DarkMode,
+  Help,
+  ScratchCardSettings
 
 }
 
@@ -86,7 +88,7 @@ export const UILABELS: { id: UIL, en: string, zh_CN: string, zh_TW: string, de: 
   { id: UIL.English, en: 'English', zh_CN: '英语', zh_TW: '英語', de: 'Englisch' },
   { id: UIL.German, en: 'German', zh_CN: '德语', zh_TW: '德語', de: 'Deutsch' },
   { id: UIL.British, en: 'British', zh_CN: '英式', zh_TW: '英式', de: 'Britisch' },
-  { id: UIL.AmE, en: 'AmE', zh_CN: '美式', zh_TW: '美式', de: 'AmE' },
+  { id: UIL.AmE, en: 'American', zh_CN: '美式', zh_TW: '美式', de: 'Amerikanische' },
   { id: UIL.Mandarin, en: 'Mandarin', zh_CN: '普通话', zh_TW: '國語', de: 'Mandarin' },
   { id: UIL.Cantonese, en: 'Cantonese', zh_CN: '粤语', zh_TW: '粵語', de: 'Kantonesisch' },
 
@@ -159,6 +161,8 @@ export const UILABELS: { id: UIL, en: string, zh_CN: string, zh_TW: string, de: 
   { id: UIL.DeleteImage, en: 'Delete Image', zh_CN: '删除图像', zh_TW: '刪除圖像', de: 'Bild löschen' },
   { id: UIL.DarkMode, en: 'Dark Mode', zh_CN: '暗黑界面', zh_TW: '暗黑界面', de: 'Dark Mode' },
   { id: UIL.AllWords, en: 'All Words', zh_CN: '全部单词', zh_TW: '全部單詞', de: 'Alle Wörter' },
+  { id: UIL.Help, en: 'Help', zh_CN: '帮助', zh_TW: '幫助', de: 'Hilfe' },
+  { id: UIL.ScratchCardSettings, en: 'Scratch Card Settings', zh_CN: '刮刮卡设置', zh_TW: '刮刮卡設置', de: 'Rubbelkarteneinstellungen' },
 
 ];
 
