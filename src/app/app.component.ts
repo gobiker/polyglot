@@ -1,8 +1,10 @@
+import { CacheService } from './services/cache.service';
 import { Component, OnInit } from '@angular/core';
 import { SwUpdate } from '@angular/service-worker';
 import { Platform } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
+import { UIL } from './ui-labels';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +16,9 @@ export class AppComponent implements OnInit {
     private platform: Platform,
     private splashScreen: SplashScreen,
     private statusBar: StatusBar,
-    private swUpdate: SwUpdate
+    private swUpdate: SwUpdate,
+    private cacheService: CacheService
+
   ) {
     this.initializeApp();
   }
@@ -22,7 +26,7 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     if (this.swUpdate.isEnabled) {
       this.swUpdate.available.subscribe(() => {
-        if (confirm("New version available. Load New Version?")) {
+        if (confirm(this.cacheService.getUiLabel(UIL.NewVersion))) {
           window.location.reload();
         }
       });

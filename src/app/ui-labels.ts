@@ -58,7 +58,8 @@ export enum UIL {
   DeleteImage,
   DarkMode,
   Help,
-  ScratchCardSettings
+  ScratchCardSettings,
+  NewVersion
 
 }
 
@@ -114,10 +115,6 @@ export const UILABELS: { id: UIL, en: string, zh_CN: string, zh_TW: string, de: 
     id: UIL.defaultSettingList, en: 'default settings of list',
     zh_CN: '列表的默认设置', zh_TW: '列表的預設設定', de: 'Standardeinstellungen der Liste'
   },
-  {
-    id: UIL.defaultSettingDetails, en: 'settings of scratch',
-    zh_CN: '刮刮卡设置', zh_TW: '刮刮卡設定', de: 'Einstellungen des Rubbellos'
-  },
   { id: UIL.Hide, en: 'hide', zh_CN: '遮蔽', zh_TW: '遮蔽', de: 'versteckt' },
   { id: UIL.SpeechSpeed, en: 'speed', zh_CN: '发音速度', zh_TW: '發音速度', de: 'Geschwindigkeit' },
   {
@@ -163,6 +160,8 @@ export const UILABELS: { id: UIL, en: string, zh_CN: string, zh_TW: string, de: 
   { id: UIL.AllWords, en: 'All Words', zh_CN: '全部单词', zh_TW: '全部單詞', de: 'Alle Wörter' },
   { id: UIL.Help, en: 'Help', zh_CN: '帮助', zh_TW: '幫助', de: 'Hilfe' },
   { id: UIL.ScratchCardSettings, en: 'Scratch Card Settings', zh_CN: '刮刮卡设置', zh_TW: '刮刮卡設置', de: 'Rubbelkarteneinstellungen' },
+  { id: UIL.NewVersion, en: 'New version available. Load New Version?', 
+  zh_CN: '版本有更新, 加载新版本？', zh_TW: '版本有更新，加載新版本？', de: 'Neue Version verfügbar. Laden Sie neue Version?' },
 
 ];
 
