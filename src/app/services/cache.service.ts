@@ -1,12 +1,13 @@
-import { LangSetting } from './../entities/lang-setting';
 import { LanguageService } from './language.service';
 import { Card } from './../entities/card';
 import { Category } from './../entities/category';
-import { TextData } from './../entities/text-data';
 import { Settings } from './../entities/settings';
 import { Injectable } from '@angular/core';
 import s from './../../assets/settings.json';
-import d from './../../assets/data.json';
+import cat from 'src/assets/data/categories.json';
+import c from 'src/assets/data/cards.json';
+
+
 import { UIL, getUiLabel } from '../ui-labels';
 import { LangData } from '../types/lang-data.enum';
 
@@ -15,7 +16,8 @@ import { LangData } from '../types/lang-data.enum';
 })
 export class CacheService {
   settings: Settings = s;
-  data: TextData = d;
+  allCategories: Category[] = cat;
+  allCards: Card[] = c;
   curCards: Card[];
   curIndex: number;
   homeToken: boolean = false;
@@ -26,9 +28,9 @@ export class CacheService {
   }
 
   genCurCards(i: number) {
-    if (i === 0) this.curCards = this.data.cardList;
+    if (i === 0) this.curCards = this.allCards;
     else {
-      this.curCards = this.data.cardList.filter(c => c.catId === i);
+      this.curCards = this.allCards.filter(c => c.catId === i);
     }
   }
 
@@ -50,7 +52,7 @@ export class CacheService {
   }
 
   getCategory(i: number): Category {
-    return this.data.categoryList.find(cat => cat.id === i);
+    return this.allCategories.find(cat => cat.id === i);
   }
 
   getCategoryLabelUi(cat: Category): string {
@@ -58,7 +60,7 @@ export class CacheService {
   }
 
   getCardFromId(id: number): Card {
-    return this.data.cardList.find(c => c.id === id);
+    return this.allCards.find(c => c.id === id);
   }
 
   getCardLabelUi(card: Card): string {

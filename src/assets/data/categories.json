@@ -1,0 +1,250 @@
+[
+  {
+    "id": 1,
+    "parentId": 0,
+    "cns": "数字",
+    "cnt": "數字",
+    "en": "Number",
+    "de": "Zahlen"
+  },
+  {
+    "id": 2,
+    "parentId": 0,
+    "cns": "月份",
+    "cnt": "月份",
+    "en": "Monat",
+    "de": "Der Monat"
+  },
+  {
+    "id": 3,
+    "parentId": 0,
+    "cns": "星期",
+    "cnt": "星期",
+    "en": "Week",
+    "de": "Die Woche"
+  },
+  {
+    "id": 4,
+    "parentId": 0,
+    "cns": "时间",
+    "cnt": "時間",
+    "en": "Time",
+    "de": "Die Zeit"
+  },
+  {
+    "id": 5,
+    "parentId": 0,
+    "cns": "方位",
+    "cnt": "方位",
+    "en": "Direction",
+    "de": "Die Richtung"
+  },
+  {
+    "id": 6,
+    "parentId": 0,
+    "cns": "颜色",
+    "cnt": "顏色",
+    "en": "Color",
+    "de": "Die Farbe"
+  },
+  {
+    "id": 7,
+    "parentId": 0,
+    "cns": "人类",
+    "cnt": "人類",
+    "en": "Human",
+    "de": "Menschen"
+  },
+  {
+    "id": 8,
+    "parentId": 0,
+    "cns": "人生阶段",
+    "cnt": "人生階段",
+    "en": "Life’s phrases",
+    "de": "Lebensphasen"
+  },
+  {
+    "id": 9,
+    "parentId": 0,
+    "cns": "人体部位",
+    "cnt": "人體部位",
+    "en": "Body",
+    "de": "Der Körper"
+  },
+  {
+    "id": 10,
+    "parentId": 0,
+    "cns": "健康",
+    "cnt": "健康",
+    "en": "Health",
+    "de": "Gesundheit"
+  },
+  {
+    "id": 11,
+    "parentId": 0,
+    "cns": "服装",
+    "cnt": "服裝",
+    "en": "Clothing",
+    "de": "Die Kleidung"
+  },
+  {
+    "id": 12,
+    "parentId": 0,
+    "cns": "家庭",
+    "cnt": "家庭",
+    "en": "Family",
+    "de": "Die Familie"
+  },
+  {
+    "id": 13,
+    "parentId": 0,
+    "cns": "教育",
+    "cnt": "教育",
+    "en": "Education",
+    "de": "Bildung"
+  },
+  {
+    "id": 14,
+    "parentId": 0,
+    "cns": "职业",
+    "cnt": "職業",
+    "en": "Jobs",
+    "de": "Berufe"
+  },
+  {
+    "id": 15,
+    "parentId": 0,
+    "cns": "文具",
+    "cnt": "文具",
+    "en": "Stationery",
+    "de": "Schreibwaren"
+  },
+  {
+    "id": 16,
+    "parentId": 0,
+    "cns": "业余爱好",
+    "cnt": "業餘愛好",
+    "en": "Hobby",
+    "de": "Hobby"
+  },
+  {
+    "id": 17,
+    "parentId": 0,
+    "cns": "城市",
+    "cnt": "城市",
+    "en": "In the city",
+    "de": "In der Stadt"
+  },
+  {
+    "id": 18,
+    "parentId": 0,
+    "cns": "体育",
+    "cnt": "體育",
+    "en": "Sport",
+    "de": "Sports"
+  },
+  {
+    "id": 19,
+    "parentId": 0,
+    "cns": "交通",
+    "cnt": "交通",
+    "en": "On the go",
+    "de": "Unterwegs"
+  },
+  {
+    "id": 20,
+    "parentId": 0,
+    "cns": "工具",
+    "cnt": "工具",
+    "en": "Tools",
+    "de": "Werkzeuge"
+  },
+  {
+    "id": 21,
+    "parentId": 0,
+    "cns": "房子",
+    "cnt": "房子",
+    "en": "House",
+    "de": "Das Haus"
+  },
+  {
+    "id": 22,
+    "parentId": 0,
+    "cns": "日用品",
+    "cnt": "日用品",
+    "en": "daily supplies",
+    "de": "Täglicher Bedarf"
+  },
+  {
+    "id": 23,
+    "parentId": 0,
+    "cns": "厨房",
+    "cnt": "廚房",
+    "en": "Kitchen",
+    "de": "Küche"
+  },
+  {
+    "id": 24,
+    "parentId": 0,
+    "cns": "家具",
+    "cnt": "家具",
+    "en": "Furniture",
+    "de": "Möbel"
+  },
+  {
+    "id": 25,
+    "parentId": 0,
+    "cns": "饮料",
+    "cnt": "飲料",
+    "en": "drinks",
+    "de": "Trinken"
+  },
+  {
+    "id": 26,
+    "parentId": 0,
+    "cns": "食品",
+    "cnt": "食品",
+    "en": "Food",
+    "de": "Essen"
+  },
+  {
+    "id": 27,
+    "parentId": 0,
+    "cns": "水果",
+    "cnt": "水果",
+    "en": "Fruits",
+    "de": "Früchte"
+  },
+  {
+    "id": 28,
+    "parentId": 0,
+    "cns": "动物",
+    "cnt": "動物",
+    "en": "Animals",
+    "de": "Tiere"
+  },
+  {
+    "id": 29,
+    "parentId": 0,
+    "cns": "植物",
+    "cnt": "植物",
+    "en": "Plants",
+    "de": "Pflanzen"
+  },
+  {
+    "id": 30,
+    "parentId": 0,
+    "cns": "大自然",
+    "cnt": "大自然",
+    "en": "Nature",
+    "de": "Natur"
+  },
+  {
+    "id": 31,
+    "parentId": 0,
+    "cns": "宇宙",
+    "cnt": "宇宙",
+    "en": "Universe",
+    "de": "Das Universum"
+  }
+ ]
