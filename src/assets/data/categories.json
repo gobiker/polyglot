@@ -108,7 +108,7 @@
     "parentId": 0,
     "cns": "职业",
     "cnt": "職業",
-    "en": "Jobs",
+    "en": "Occupations",
     "de": "Berufe"
   },
   {
@@ -218,13 +218,21 @@
   {
     "id": 28,
     "parentId": 0,
-    "cns": "动物",
-    "cnt": "動物",
-    "en": "Animals",
-    "de": "Tiere"
+    "cns": "哺乳动物",
+    "cnt": "哺乳動物",
+    "en": "Mammals",
+    "de": "Säugetiere"
   },
   {
     "id": 29,
+    "parentId": 0,
+    "cns": "其他动物",
+    "cnt": "其他動物",
+    "en": "Other animals",
+    "de": "Andere Tiere"
+  },
+  {
+    "id": 30,
     "parentId": 0,
     "cns": "植物",
     "cnt": "植物",
@@ -232,7 +240,7 @@
     "de": "Pflanzen"
   },
   {
-    "id": 30,
+    "id": 31,
     "parentId": 0,
     "cns": "大自然",
     "cnt": "大自然",
@@ -240,7 +248,7 @@
     "de": "Natur"
   },
   {
-    "id": 31,
+    "id": 32,
     "parentId": 0,
     "cns": "宇宙",
     "cnt": "宇宙",

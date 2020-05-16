@@ -1,956 +1,1883 @@
 [
-    {
-      "id": 1,
-      "catId": 1,
-      "cns": "一",
-      "cnt": "一",
-      "en": "One",
-      "de": "Eins",
-      "deGen": 0
-    },
-    {
-      "id": 2,
-      "catId": 1,
-      "cns": "二",
-      "cnt": "二",
-      "en": "Two",
-      "de": "Zwei",
-      "deGen": 0
-    },
-    {
-      "id": 3,
-      "catId": 1,
-      "cns": "三",
-      "cnt": "三",
-      "en": "Three",
-      "de": "Drei",
-      "deGen": 0
-    },
-    {
-      "id": 4,
-      "catId": 1,
-      "cns": "四",
-      "cnt": "四",
-      "en": "Four",
-      "de": "Vier",
-      "deGen": 0
-    },
-    {
-      "id": 5,
-      "catId": 1,
-      "cns": "五",
-      "cnt": "五",
-      "en": "Five",
-      "de": "Fünf",
-      "deGen": 0
-    },
-    {
-      "id": 6,
-      "catId": 1,
-      "cns": "六",
-      "cnt": "六",
-      "en": "Six",
-      "de": "Sechs",
-      "deGen": 0
-    },
-    {
-      "id": 7,
-      "catId": 1,
-      "cns": "七",
-      "cnt": "七",
-      "en": "Seven",
-      "de": "Sieben",
-      "deGen": 0
-    },
-    {
-      "id": 8,
-      "catId": 1,
-      "cns": "八",
-      "cnt": "八",
-      "en": "Eight",
-      "de": "Acht",
-      "deGen": 0
-    },
-    {
-      "id": 9,
-      "catId": 1,
-      "cns": "九",
-      "cnt": "九",
-      "en": "Nine",
-      "de": "Neun",
-      "deGen": 0
-    },
-    {
-      "id": 10,
-      "catId": 1,
-      "cns": "十",
-      "cnt": "十",
-      "en": "Ten",
-      "de": "Zehn",
-      "deGen": 0
-    },
-    {
-      "id": 11,
-      "catId": 1,
-      "cns": "十一",
-      "cnt": "十一",
-      "en": "eleven",
-      "de": "Elf",
-      "deGen": 0
-    },
-    {
-      "id": 12,
-      "catId": 1,
-      "cns": "十二",
-      "cnt": "十二",
-      "en": "twelve",
-      "de": "Zwölf",
-      "deGen": 0
-    },
-    {
-      "id": 13,
-      "catId": 1,
-      "cns": "十三",
-      "cnt": "十三",
-      "en": "thirteen",
-      "de": "Dreizehn",
-      "deGen": 0
-    },
-    {
-      "id": 14,
-      "catId": 1,
-      "cns": "十四",
-      "cnt": "十四",
-      "en": "fourteen",
-      "de": "Vierzehn",
-      "deGen": 0
-    },
-    {
-      "id": 15,
-      "catId": 1,
-      "cns": "十五",
-      "cnt": "十五",
-      "en": "fifteen",
-      "de": "Fünfzehn",
-      "deGen": 0
-    },
-    {
-      "id": 16,
-      "catId": 1,
-      "cns": "十六",
-      "cnt": "十六",
-      "en": "sixteen",
-      "de": "Sechzehn",
-      "deGen": 0
-    },
-    {
-      "id": 17,
-      "catId": 1,
-      "cns": "十七",
-      "cnt": "十七",
-      "en": "Seventeen",
-      "de": "Siebzehn",
-      "deGen": 0
-    },
-    {
-      "id": 18,
-      "catId": 1,
-      "cns": "十八",
-      "cnt": "十八",
-      "en": "eighteen",
-      "de": "Achtzehn",
-      "deGen": 0
-    },
-    {
-      "id": 19,
-      "catId": 1,
-      "cns": "十九",
-      "cnt": "十九",
-      "en": "Nineteen",
-      "de": "Neunzehn",
-      "deGen": 0
-    },
-    {
-      "id": 20,
-      "catId": 1,
-      "cns": "二十",
-      "cnt": "二十",
-      "en": "twenty",
-      "de": "Zwanzig",
-      "deGen": 0
-    },
-    {
-      "id": 21,
-      "catId": 1,
-      "cns": "二十一",
-      "cnt": "二十一",
-      "en": "twenty one",
-      "de": "Einundzwanzig",
-      "deGen": 0
-    },
-    {
-      "id": 22,
-      "catId": 1,
-      "cns": "三十",
-      "cnt": "三十",
-      "en": "thirty",
-      "de": "Dreißig",
-      "deGen": 0
-    },
-    {
-      "id": 23,
-      "catId": 1,
-      "cns": "四十",
-      "cnt": "四十",
-      "en": "forty",
-      "de": "Vierzig",
-      "deGen": 0
-    },
-    {
-      "id": 24,
-      "catId": 1,
-      "cns": "五十",
-      "cnt": "五十",
-      "en": "fifty",
-      "de": "Fünfzig",
-      "deGen": 0
-    },
-    {
-      "id": 25,
-      "catId": 1,
-      "cns": "六十",
-      "cnt": "六十",
-      "en": "sixty",
-      "de": "Sechzig",
-      "deGen": 0
-    },
-    {
-      "id": 26,
-      "catId": 1,
-      "cns": "七十",
-      "cnt": "七十",
-      "en": "seventy",
-      "de": "Siebzig",
-      "deGen": 0
-    },
-    {
-      "id": 27,
-      "catId": 1,
-      "cns": "八十",
-      "cnt": "八十",
-      "en": "eighty",
-      "de": "Achtzig",
-      "deGen": 0
-    },
-    {
-      "id": 28,
-      "catId": 1,
-      "cns": "九十",
-      "cnt": "九十",
-      "en": "ninety",
-      "de": "Neunzig",
-      "deGen": 0
-    },
-    {
-      "id": 29,
-      "catId": 1,
-      "cns": "一百",
-      "cnt": "一百",
-      "en": "hundred",
-      "de": "Einhundert",
-      "deGen": 0
-    },
-    {
-      "id": 30,
-      "catId": 1,
-      "cns": "二百五十六",
-      "cnt": "二百五十六",
-      "en": "two hundred fifty-six",
-      "de": "Zweihundertsechsundfünfzig",
-      "deGen": 0
-    },
-    {
-      "id": 31,
-      "catId": 1,
-      "cns": "一千",
-      "cnt": "一千",
-      "en": "one thousand",
-      "de": "Eintausend",
-      "deGen": 0
-    },
-    {
-      "id": 32,
-      "catId": 1,
-      "cns": "一万",
-      "cnt": "一萬",
-      "en": "ten thousand",
-      "de": "Zehntausend",
-      "deGen": 0
-    },
-    {
-      "id": 33,
-      "catId": 1,
-      "cns": "一百万",
-      "cnt": "一百萬",
-      "en": "a million",
-      "de": "Eine Million",
-      "deGen": 0
-    },
-    {
-      "id": 34,
-      "catId": 1,
-      "cns": "一亿",
-      "cnt": "一億",
-      "en": "100 million",
-      "de": "100 Millionen",
-      "deGen": 0
-    },
-    {
-      "id": 35,
-      "catId": 1,
-      "cns": "十亿",
-      "cnt": "十億",
-      "en": "a billion",
-      "de": "Eine Milliarde",
-      "deGen": 0
-    },
-    {
-      "id": 36,
-      "catId": 1,
-      "cns": "万亿",
-      "cnt": "萬億",
-      "en": "a trillion",
-      "de": "Eine Billionen",
-      "deGen": 0
-    },
-    {
-      "id": 37,
-      "catId": 2,
-      "cns": "一月",
-      "cnt": "一月",
-      "en": "January",
-      "de": "Januar",
-      "deGen": 1
-    },
-    {
-      "id": 38,
-      "catId": 2,
-      "cns": "二月",
-      "cnt": "二月",
-      "en": "February",
-      "de": "Februar",
-      "deGen": 1
-    },
-    {
-      "id": 39,
-      "catId": 2,
-      "cns": "三月",
-      "cnt": "三月",
-      "en": "March",
-      "de": "März",
-      "deGen": 1
-    },
-    {
-      "id": 40,
-      "catId": 2,
-      "cns": "四月",
-      "cnt": "四月",
-      "en": "April",
-      "de": "April",
-      "deGen": 1
-    },
-    {
-      "id": 41,
-      "catId": 2,
-      "cns": "五月",
-      "cnt": "五月",
-      "en": "May",
-      "de": "Mai",
-      "deGen": 1
-    },
-    {
-      "id": 42,
-      "catId": 2,
-      "cns": "六月",
-      "cnt": "六月",
-      "en": "June",
-      "de": "Juni",
-      "deGen": 1
-    },
-    {
-      "id": 43,
-      "catId": 2,
-      "cns": "七月",
-      "cnt": "七月",
-      "en": "July",
-      "de": "Juli",
-      "deGen": 1
-    },
-    {
-      "id": 44,
-      "catId": 2,
-      "cns": "八月",
-      "cnt": "八月",
-      "en": "August",
-      "de": "August",
-      "deGen": 1
-    },
-    {
-      "id": 45,
-      "catId": 2,
-      "cns": "九月",
-      "cnt": "九月",
-      "en": "September",
-      "de": "September",
-      "deGen": 1
-    },
-    {
-      "id": 46,
-      "catId": 2,
-      "cns": "十月",
-      "cnt": "十月",
-      "en": "October",
-      "de": "Oktober",
-      "deGen": 1
-    },
-    {
-      "id": 47,
-      "catId": 2,
-      "cns": "十一月",
-      "cnt": "十一月",
-      "en": "November",
-      "de": "November",
-      "deGen": 1
-    },
-    {
-      "id": 48,
-      "catId": 2,
-      "cns": "十二月",
-      "cnt": "十二月",
-      "en": "December",
-      "de": "Dezember",
-      "deGen": 1
-    },
-    {
-      "id": 49,
-      "catId": 3,
-      "cns": "星期一",
-      "cnt": "星期一",
-      "en": "Monday",
-      "de": "Montag",
-      "deGen": 1
-    },
-    {
-      "id": 50,
-      "catId": 3,
-      "cns": "星期二",
-      "cnt": "星期二",
-      "en": "Tuesday",
-      "de": "Dienstag",
-      "deGen": 1
-    },
-    {
-      "id": 51,
-      "catId": 3,
-      "cns": "星期三",
-      "cnt": "星期三",
-      "en": "Wednesday",
-      "de": "Mittwoch",
-      "deGen": 1
-    },
-    {
-      "id": 52,
-      "catId": 3,
-      "cns": "星期四",
-      "cnt": "星期四",
-      "en": "Thursday",
-      "de": "Donnerstag",
-      "deGen": 1
-    },
-    {
-      "id": 53,
-      "catId": 3,
-      "cns": "星期五",
-      "cnt": "星期五",
-      "en": "Friday",
-      "de": "Freitag",
-      "deGen": 1
-    },
-    {
-      "id": 54,
-      "catId": 3,
-      "cns": "星期六",
-      "cnt": "星期六",
-      "en": "Saturday",
-      "de": "Samstag",
-      "deGen": 1
-    },
-    {
-      "id": 55,
-      "catId": 3,
-      "cns": "星期天",
-      "cnt": "星期天",
-      "en": "Sunday",
-      "de": "Sonntag",
-      "deGen": 1
-    },
-    {
-      "id": 56,
-      "catId": 3,
-      "cns": "周末",
-      "cnt": "週末",
-      "en": "weekend",
-      "de": "Wochenende",
-      "deGen": 3
-    },
-    {
-      "id": 57,
-      "catId": 4,
-      "cns": "春天",
-      "cnt": "春天",
-      "en": "spring",
-      "de": "Frühling",
-      "deGen": 1
-    },
-    {
-      "id": 58,
-      "catId": 4,
-      "cns": "夏天",
-      "cnt": "夏天",
-      "en": "summer",
-      "de": "Sommer",
-      "deGen": 1
-    },
-    {
-      "id": 59,
-      "catId": 4,
-      "cns": "秋天",
-      "cnt": "秋天",
-      "en": "autumn",
-      "de": "Herbst",
-      "deGen": 1
-    },
-    {
-      "id": 60,
-      "catId": 4,
-      "cns": "冬天",
-      "cnt": "冬天",
-      "en": "winter",
-      "de": "Winter",
-      "deGen": 1
-    },
-    {
-      "id": 68,
-      "catId": 4,
-      "cns": "黎明",
-      "cnt": "黎明",
-      "en": "dawn",
-      "de": "Morgendämmerung",
-      "deGen": 2
-    },
-    {
-      "id": 66,
-      "catId": 4,
-      "cns": "日出",
-      "cnt": "日出",
-      "en": "sunrise",
-      "de": "Sonnenaufgang",
-      "deGen": 1
-    },
-    {
-      "id": 61,
-      "catId": 4,
-      "cns": "早晨",
-      "cnt": "早晨",
-      "en": "early morning",
-      "de": "Morgen",
-      "deGen": 1
-    },
-    {
-      "id": 62,
-      "catId": 4,
-      "cns": "上午",
-      "cnt": "上午",
-      "en": "morning",
-      "de": "Vormittag",
-      "deGen": 1
-    },
-    {
-      "id": 62,
-      "catId": 4,
-      "cns": "中午",
-      "cnt": "中午",
-      "en": "midday",
-      "de": "Mittag",
-      "deGen": 1
-    },
-    {
-      "id": 63,
-      "catId": 4,
-      "cns": "下午",
-      "cnt": "下午",
-      "en": "afternoon",
-      "de": "Nachmittag",
-      "deGen": 1
-    },
-    {
-      "id": 67,
-      "catId": 4,
-      "cns": "日落",
-      "cnt": "日落",
-      "en": "sunset",
-      "de": "Sonnenuntergang",
-      "deGen": 1
-    },
-    {
-      "id": 69,
-      "catId": 4,
-      "cns": "黄昏",
-      "cnt": "黃昏",
-      "en": "dusk",
-      "de": "Abenddämmerung",
-      "deGen": 2
-    },
-    {
-      "id": 64,
-      "catId": 4,
-      "cns": "晚上",
-      "cnt": "晚上",
-      "en": "evening",
-      "de": "Abend",
-      "deGen": 1
-    },
-    {
-      "id": 65,
-      "catId": 4,
-      "cns": "午夜",
-      "cnt": "午夜",
-      "en": "midnight",
-      "de": "Mitternacht",
-      "deGen": 2
-    },
-    {
-      "id": 70,
-      "catId": 4,
-      "cns": "今天",
-      "cnt": "今天",
-      "en": "today",
-      "de": "Heute",
-      "deGen": 0
-    },
-    {
-      "id": 71,
-      "catId": 4,
-      "cns": "明天",
-      "cnt": "明天",
-      "en": "tomorrow",
-      "de": "Morgen",
-      "deGen": 0
-    },
-    {
-      "id": 72,
-      "catId": 4,
-      "cns": "后天",
-      "cnt": "後天",
-      "en": "The day after tomorrow",
-      "de": "Übermorgen",
-      "deGen": 0
-    },
-    {
-      "id": 73,
-      "catId": 4,
-      "cns": "昨天",
-      "cnt": "昨天",
-      "en": "yesterday",
-      "de": "Gestern",
-      "deGen": 0
-    },
-    {
-      "id": 74,
-      "catId": 4,
-      "cns": "前天",
-      "cnt": "前天",
-      "en": "the day before yesterday",
-      "de": "Vorgestern",
-      "deGen": 0
-    },
-    {
-      "id": 75,
-      "catId": 5,
-      "cns": "东",
-      "cnt": "東",
-      "en": "east",
-      "de": "Ost",
-      "deGen": 1
-    },
-    {
-      "id": 76,
-      "catId": 5,
-      "cns": "西",
-      "cnt": "西",
-      "en": "west",
-      "de": "West",
-      "deGen": 1
-    },
-    {
-      "id": 77,
-      "catId": 5,
-      "cns": "南",
-      "cnt": "南",
-      "en": "south",
-      "de": "Süd",
-      "deGen": 1
-    },
-    {
-      "id": 78,
-      "catId": 5,
-      "cns": "北",
-      "cnt": "北",
-      "en": "north",
-      "de": "Nord",
-      "deGen": 1
-    },
-    {
-      "id": 79,
-      "catId": 5,
-      "cns": "东南",
-      "cnt": "東南",
-      "en": "southeast",
-      "de": "Südost",
-      "deGen": 1
-    },
-    {
-      "id": 80,
-      "catId": 5,
-      "cns": "东北",
-      "cnt": "東北",
-      "en": "northeast",
-      "de": "Nordost",
-      "deGen": 1
-    },
-    {
-      "id": 81,
-      "catId": 5,
-      "cns": "西南",
-      "cnt": "西南",
-      "en": "southwest",
-      "de": "Südwest",
-      "deGen": 1
-    },
-    {
-      "id": 82,
-      "catId": 5,
-      "cns": "西北",
-      "cnt": "西北",
-      "en": "northwest",
-      "de": "Nordwest",
-      "deGen": 1
-    },
-    {
-      "id": 83,
-      "catId": 5,
-      "cns": "中间",
-      "cnt": "中間",
-      "en": "middle",
-      "de": "Mitte",
-      "deGen": 2
-    },
-    {
-      "id": 84,
-      "catId": 5,
-      "cns": "上",
-      "cnt": "上",
-      "en": "up",
-      "de": "oben",
-      "deGen": 0
-    },
-    {
-      "id": 85,
-      "catId": 5,
-      "cns": "下",
-      "cnt": "下",
-      "en": "down",
-      "de": "unden",
-      "deGen": 0
-    },
-    {
-      "id": 86,
-      "catId": 5,
-      "cns": "左",
-      "cnt": "左",
-      "en": "left",
-      "de": "links",
-      "deGen": 0
-    },
-    {
-      "id": 87,
-      "catId": 5,
-      "cns": "右",
-      "cnt": "右",
-      "en": "right",
-      "de": "rechts",
-      "deGen": 0
-    },
-    {
-      "id": 88,
-      "catId": 5,
-      "cns": "前",
-      "cnt": "前",
-      "en": "front",
-      "de": "vorne",
-      "deGen": 0
-    },
-    {
-      "id": 89,
-      "catId": 5,
-      "cns": "后",
-      "cnt": "後",
-      "en": "rear",
-      "de": "hinten",
-      "deGen": 0
-    },
-    {
-      "id": 90,
-      "catId": 6,
-      "cns": "红色",
-      "cnt": "紅色",
-      "en": "red",
-      "de": "rot",
-      "deGen": 0
-    },
-    {
-      "id": 91,
-      "catId": 6,
-      "cns": "橙色",
-      "cnt": "橙色",
-      "en": "orange",
-      "de": "orangenfarbig",
-      "deGen": 0
-    },
-    {
-      "id": 92,
-      "catId": 6,
-      "cns": "黄色",
-      "cnt": "黃色",
-      "en": "yellow",
-      "de": "gelb",
-      "deGen": 0
-    },
-    {
-      "id": 93,
-      "catId": 6,
-      "cns": "绿色",
-      "cnt": "綠色",
-      "en": "green",
-      "de": "grün",
-      "deGen": 0
-    },
-    {
-      "id": 94,
-      "catId": 6,
-      "cns": "青色",
-      "cnt": "青色",
-      "en": "cyan",
-      "de": "cyan",
-      "deGen": 0
-    },
-    {
-      "id": 95,
-      "catId": 6,
-      "cns": "蓝色",
-      "cnt": "藍色",
-      "en": "blue",
-      "de": "blau",
-      "deGen": 0
-    },
-    {
-      "id": 96,
-      "catId": 6,
-      "cns": "紫色",
-      "cnt": "紫色",
-      "en": "violet",
-      "de": "violett",
-      "deGen": 0
-    },
-    {
-      "id": 97,
-      "catId": 6,
-      "cns": "白色",
-      "cnt": "白色",
-      "en": "white",
-      "de": "weiß",
-      "deGen": 0
-    },
-    {
-      "id": 98,
-      "catId": 6,
-      "cns": "黑色",
-      "cnt": "黑色",
-      "en": "black",
-      "de": "schwarz ",
-      "deGen": 0
-    },
-    {
-      "id": 99,
-      "catId": 6,
-      "cns": "棕色",
-      "cnt": "棕色",
-      "en": "brown",
-      "de": "braun ",
-      "deGen": 0
-    },
-    {
-      "id": 100,
-      "catId": 6,
-      "cns": "米色",
-      "cnt": "米色",
-      "en": "beige",
-      "de": "beige ",
-      "deGen": 0
-    },
-    {
-      "id": 101,
-      "catId": 6,
-      "cns": "粉红色",
-      "cnt": "粉紅色",
-      "en": "pink",
-      "de": "rosa ",
-      "deGen": 0
-    },
-    {
-      "id": 102,
-      "catId": 6,
-      "cns": "灰色",
-      "cnt": "灰色",
-      "en": "gray",
-      "de": "grau",
-      "deGen": 0
-    },
-    {
-      "id": 103,
-      "catId": 6,
-      "cns": "浅灰色",
-      "cnt": "淺灰色",
-      "en": "light gray",
-      "de": "hellgrau",
-      "deGen": 0
-    },
-    {
-      "id": 104,
-      "catId": 6,
-      "cns": "深灰色",
-      "cnt": "深灰色",
-      "en": "dark gray",
-      "de": "dunkelgrau",
-      "deGen": 0
-    },
-    {
-      "id": 105,
-      "catId": 6,
-      "cns": "咖啡色",
-      "cnt": "咖啡色",
-      "en": "coffee brown",
-      "de": "kaffeebraun",
-      "deGen": 0
-    }
-   ]
+  {
+    "id": 1,
+    "catId": 1,
+    "cns": "一",
+    "cnt": "一",
+    "en": "One",
+    "de": "Eins",
+    "deGen": 0
+  },
+  {
+    "id": 2,
+    "catId": 1,
+    "cns": "二",
+    "cnt": "二",
+    "en": "Two",
+    "de": "Zwei",
+    "deGen": 0
+  },
+  {
+    "id": 3,
+    "catId": 1,
+    "cns": "三",
+    "cnt": "三",
+    "en": "Three",
+    "de": "Drei",
+    "deGen": 0
+  },
+  {
+    "id": 4,
+    "catId": 1,
+    "cns": "四",
+    "cnt": "四",
+    "en": "Four",
+    "de": "Vier",
+    "deGen": 0
+  },
+  {
+    "id": 5,
+    "catId": 1,
+    "cns": "五",
+    "cnt": "五",
+    "en": "Five",
+    "de": "Fünf",
+    "deGen": 0
+  },
+  {
+    "id": 6,
+    "catId": 1,
+    "cns": "六",
+    "cnt": "六",
+    "en": "Six",
+    "de": "Sechs",
+    "deGen": 0
+  },
+  {
+    "id": 7,
+    "catId": 1,
+    "cns": "七",
+    "cnt": "七",
+    "en": "Seven",
+    "de": "Sieben",
+    "deGen": 0
+  },
+  {
+    "id": 8,
+    "catId": 1,
+    "cns": "八",
+    "cnt": "八",
+    "en": "Eight",
+    "de": "Acht",
+    "deGen": 0
+  },
+  {
+    "id": 9,
+    "catId": 1,
+    "cns": "九",
+    "cnt": "九",
+    "en": "Nine",
+    "de": "Neun",
+    "deGen": 0
+  },
+  {
+    "id": 10,
+    "catId": 1,
+    "cns": "十",
+    "cnt": "十",
+    "en": "Ten",
+    "de": "Zehn",
+    "deGen": 0
+  },
+  {
+    "id": 11,
+    "catId": 1,
+    "cns": "十一",
+    "cnt": "十一",
+    "en": "eleven",
+    "de": "Elf",
+    "deGen": 0
+  },
+  {
+    "id": 12,
+    "catId": 1,
+    "cns": "十二",
+    "cnt": "十二",
+    "en": "twelve",
+    "de": "Zwölf",
+    "deGen": 0
+  },
+  {
+    "id": 13,
+    "catId": 1,
+    "cns": "十三",
+    "cnt": "十三",
+    "en": "thirteen",
+    "de": "Dreizehn",
+    "deGen": 0
+  },
+  {
+    "id": 14,
+    "catId": 1,
+    "cns": "十四",
+    "cnt": "十四",
+    "en": "fourteen",
+    "de": "Vierzehn",
+    "deGen": 0
+  },
+  {
+    "id": 15,
+    "catId": 1,
+    "cns": "十五",
+    "cnt": "十五",
+    "en": "fifteen",
+    "de": "Fünfzehn",
+    "deGen": 0
+  },
+  {
+    "id": 16,
+    "catId": 1,
+    "cns": "十六",
+    "cnt": "十六",
+    "en": "sixteen",
+    "de": "Sechzehn",
+    "deGen": 0
+  },
+  {
+    "id": 17,
+    "catId": 1,
+    "cns": "十七",
+    "cnt": "十七",
+    "en": "Seventeen",
+    "de": "Siebzehn",
+    "deGen": 0
+  },
+  {
+    "id": 18,
+    "catId": 1,
+    "cns": "十八",
+    "cnt": "十八",
+    "en": "eighteen",
+    "de": "Achtzehn",
+    "deGen": 0
+  },
+  {
+    "id": 19,
+    "catId": 1,
+    "cns": "十九",
+    "cnt": "十九",
+    "en": "Nineteen",
+    "de": "Neunzehn",
+    "deGen": 0
+  },
+  {
+    "id": 20,
+    "catId": 1,
+    "cns": "二十",
+    "cnt": "二十",
+    "en": "twenty",
+    "de": "Zwanzig",
+    "deGen": 0
+  },
+  {
+    "id": 21,
+    "catId": 1,
+    "cns": "二十一",
+    "cnt": "二十一",
+    "en": "twenty one",
+    "de": "Einundzwanzig",
+    "deGen": 0
+  },
+  {
+    "id": 22,
+    "catId": 1,
+    "cns": "三十",
+    "cnt": "三十",
+    "en": "thirty",
+    "de": "Dreißig",
+    "deGen": 0
+  },
+  {
+    "id": 23,
+    "catId": 1,
+    "cns": "四十",
+    "cnt": "四十",
+    "en": "forty",
+    "de": "Vierzig",
+    "deGen": 0
+  },
+  {
+    "id": 24,
+    "catId": 1,
+    "cns": "五十",
+    "cnt": "五十",
+    "en": "fifty",
+    "de": "Fünfzig",
+    "deGen": 0
+  },
+  {
+    "id": 25,
+    "catId": 1,
+    "cns": "六十",
+    "cnt": "六十",
+    "en": "sixty",
+    "de": "Sechzig",
+    "deGen": 0
+  },
+  {
+    "id": 26,
+    "catId": 1,
+    "cns": "七十",
+    "cnt": "七十",
+    "en": "seventy",
+    "de": "Siebzig",
+    "deGen": 0
+  },
+  {
+    "id": 27,
+    "catId": 1,
+    "cns": "八十",
+    "cnt": "八十",
+    "en": "eighty",
+    "de": "Achtzig",
+    "deGen": 0
+  },
+  {
+    "id": 28,
+    "catId": 1,
+    "cns": "九十",
+    "cnt": "九十",
+    "en": "ninety",
+    "de": "Neunzig",
+    "deGen": 0
+  },
+  {
+    "id": 29,
+    "catId": 1,
+    "cns": "一百",
+    "cnt": "一百",
+    "en": "hundred",
+    "de": "Einhundert",
+    "deGen": 0
+  },
+  {
+    "id": 30,
+    "catId": 1,
+    "cns": "二百五十六",
+    "cnt": "二百五十六",
+    "en": "two hundred fifty-six",
+    "de": "Zweihundertsechsundfünfzig",
+    "deGen": 0
+  },
+  {
+    "id": 31,
+    "catId": 1,
+    "cns": "一千",
+    "cnt": "一千",
+    "en": "one thousand",
+    "de": "Eintausend",
+    "deGen": 0
+  },
+  {
+    "id": 32,
+    "catId": 1,
+    "cns": "一万",
+    "cnt": "一萬",
+    "en": "ten thousand",
+    "de": "Zehntausend",
+    "deGen": 0
+  },
+  {
+    "id": 33,
+    "catId": 1,
+    "cns": "一百万",
+    "cnt": "一百萬",
+    "en": "a million",
+    "de": "Eine Million",
+    "deGen": 0
+  },
+  {
+    "id": 34,
+    "catId": 1,
+    "cns": "一亿",
+    "cnt": "一億",
+    "en": "100 million",
+    "de": "100 Millionen",
+    "deGen": 0
+  },
+  {
+    "id": 35,
+    "catId": 1,
+    "cns": "十亿",
+    "cnt": "十億",
+    "en": "a billion",
+    "de": "Eine Milliarde",
+    "deGen": 0
+  },
+  {
+    "id": 36,
+    "catId": 1,
+    "cns": "万亿",
+    "cnt": "萬億",
+    "en": "a trillion",
+    "de": "Eine Billionen",
+    "deGen": 0
+  },
+  {
+    "id": 37,
+    "catId": 2,
+    "cns": "一月",
+    "cnt": "一月",
+    "en": "January",
+    "de": "Januar",
+    "deGen": 1
+  },
+  {
+    "id": 38,
+    "catId": 2,
+    "cns": "二月",
+    "cnt": "二月",
+    "en": "February",
+    "de": "Februar",
+    "deGen": 1
+  },
+  {
+    "id": 39,
+    "catId": 2,
+    "cns": "三月",
+    "cnt": "三月",
+    "en": "March",
+    "de": "März",
+    "deGen": 1
+  },
+  {
+    "id": 40,
+    "catId": 2,
+    "cns": "四月",
+    "cnt": "四月",
+    "en": "April",
+    "de": "April",
+    "deGen": 1
+  },
+  {
+    "id": 41,
+    "catId": 2,
+    "cns": "五月",
+    "cnt": "五月",
+    "en": "May",
+    "de": "Mai",
+    "deGen": 1
+  },
+  {
+    "id": 42,
+    "catId": 2,
+    "cns": "六月",
+    "cnt": "六月",
+    "en": "June",
+    "de": "Juni",
+    "deGen": 1
+  },
+  {
+    "id": 43,
+    "catId": 2,
+    "cns": "七月",
+    "cnt": "七月",
+    "en": "July",
+    "de": "Juli",
+    "deGen": 1
+  },
+  {
+    "id": 44,
+    "catId": 2,
+    "cns": "八月",
+    "cnt": "八月",
+    "en": "August",
+    "de": "August",
+    "deGen": 1
+  },
+  {
+    "id": 45,
+    "catId": 2,
+    "cns": "九月",
+    "cnt": "九月",
+    "en": "September",
+    "de": "September",
+    "deGen": 1
+  },
+  {
+    "id": 46,
+    "catId": 2,
+    "cns": "十月",
+    "cnt": "十月",
+    "en": "October",
+    "de": "Oktober",
+    "deGen": 1
+  },
+  {
+    "id": 47,
+    "catId": 2,
+    "cns": "十一月",
+    "cnt": "十一月",
+    "en": "November",
+    "de": "November",
+    "deGen": 1
+  },
+  {
+    "id": 48,
+    "catId": 2,
+    "cns": "十二月",
+    "cnt": "十二月",
+    "en": "December",
+    "de": "Dezember",
+    "deGen": 1
+  },
+  {
+    "id": 49,
+    "catId": 3,
+    "cns": "星期一",
+    "cnt": "星期一",
+    "en": "Monday",
+    "de": "Montag",
+    "deGen": 1
+  },
+  {
+    "id": 50,
+    "catId": 3,
+    "cns": "星期二",
+    "cnt": "星期二",
+    "en": "Tuesday",
+    "de": "Dienstag",
+    "deGen": 1
+  },
+  {
+    "id": 51,
+    "catId": 3,
+    "cns": "星期三",
+    "cnt": "星期三",
+    "en": "Wednesday",
+    "de": "Mittwoch",
+    "deGen": 1
+  },
+  {
+    "id": 52,
+    "catId": 3,
+    "cns": "星期四",
+    "cnt": "星期四",
+    "en": "Thursday",
+    "de": "Donnerstag",
+    "deGen": 1
+  },
+  {
+    "id": 53,
+    "catId": 3,
+    "cns": "星期五",
+    "cnt": "星期五",
+    "en": "Friday",
+    "de": "Freitag",
+    "deGen": 1
+  },
+  {
+    "id": 54,
+    "catId": 3,
+    "cns": "星期六",
+    "cnt": "星期六",
+    "en": "Saturday",
+    "de": "Samstag",
+    "deGen": 1
+  },
+  {
+    "id": 55,
+    "catId": 3,
+    "cns": "星期天",
+    "cnt": "星期天",
+    "en": "Sunday",
+    "de": "Sonntag",
+    "deGen": 1
+  },
+  {
+    "id": 56,
+    "catId": 3,
+    "cns": "周末",
+    "cnt": "週末",
+    "en": "weekend",
+    "de": "Wochenende",
+    "deGen": 3
+  },
+  {
+    "id": 57,
+    "catId": 4,
+    "cns": "春天",
+    "cnt": "春天",
+    "en": "spring",
+    "de": "Frühling",
+    "deGen": 1
+  },
+  {
+    "id": 58,
+    "catId": 4,
+    "cns": "夏天",
+    "cnt": "夏天",
+    "en": "summer",
+    "de": "Sommer",
+    "deGen": 1
+  },
+  {
+    "id": 59,
+    "catId": 4,
+    "cns": "秋天",
+    "cnt": "秋天",
+    "en": "autumn",
+    "de": "Herbst",
+    "deGen": 1
+  },
+  {
+    "id": 60,
+    "catId": 4,
+    "cns": "冬天",
+    "cnt": "冬天",
+    "en": "winter",
+    "de": "Winter",
+    "deGen": 1
+  },
+  {
+    "id": 61,
+    "catId": 4,
+    "cns": "黎明",
+    "cnt": "黎明",
+    "en": "dawn",
+    "de": "Morgendämmerung",
+    "deGen": 2
+  },
+  {
+    "id": 62,
+    "catId": 4,
+    "cns": "日出",
+    "cnt": "日出",
+    "en": "sunrise",
+    "de": "Sonnenaufgang",
+    "deGen": 1
+  },
+  {
+    "id": 63,
+    "catId": 4,
+    "cns": "早晨",
+    "cnt": "早晨",
+    "en": "early morning",
+    "de": "Morgen",
+    "deGen": 1
+  },
+  {
+    "id": 64,
+    "catId": 4,
+    "cns": "上午",
+    "cnt": "上午",
+    "en": "morning",
+    "de": "Vormittag",
+    "deGen": 1
+  },
+  {
+    "id": 65,
+    "catId": 4,
+    "cns": "中午",
+    "cnt": "中午",
+    "en": "midday",
+    "de": "Mittag",
+    "deGen": 1
+  },
+  {
+    "id": 66,
+    "catId": 4,
+    "cns": "下午",
+    "cnt": "下午",
+    "en": "afternoon",
+    "de": "Nachmittag",
+    "deGen": 1
+  },
+  {
+    "id": 67,
+    "catId": 4,
+    "cns": "日落",
+    "cnt": "日落",
+    "en": "sunset",
+    "de": "Sonnenuntergang",
+    "deGen": 1
+  },
+  {
+    "id": 68,
+    "catId": 4,
+    "cns": "黄昏",
+    "cnt": "黃昏",
+    "en": "dusk",
+    "de": "Abenddämmerung",
+    "deGen": 2
+  },
+  {
+    "id": 69,
+    "catId": 4,
+    "cns": "晚上",
+    "cnt": "晚上",
+    "en": "evening",
+    "de": "Abend",
+    "deGen": 1
+  },
+  {
+    "id": 70,
+    "catId": 4,
+    "cns": "午夜",
+    "cnt": "午夜",
+    "en": "midnight",
+    "de": "Mitternacht",
+    "deGen": 2
+  },
+  {
+    "id": 71,
+    "catId": 4,
+    "cns": "今天",
+    "cnt": "今天",
+    "en": "today",
+    "de": "Heute",
+    "deGen": 0
+  },
+  {
+    "id": 72,
+    "catId": 4,
+    "cns": "明天",
+    "cnt": "明天",
+    "en": "tomorrow",
+    "de": "Morgen",
+    "deGen": 0
+  },
+  {
+    "id": 73,
+    "catId": 4,
+    "cns": "后天",
+    "cnt": "後天",
+    "en": "The day after tomorrow",
+    "de": "Übermorgen",
+    "deGen": 0
+  },
+  {
+    "id": 74,
+    "catId": 4,
+    "cns": "昨天",
+    "cnt": "昨天",
+    "en": "yesterday",
+    "de": "Gestern",
+    "deGen": 0
+  },
+  {
+    "id": 75,
+    "catId": 4,
+    "cns": "前天",
+    "cnt": "前天",
+    "en": "the day before yesterday",
+    "de": "Vorgestern",
+    "deGen": 0
+  },
+  {
+    "id": 76,
+    "catId": 5,
+    "cns": "东",
+    "cnt": "東",
+    "en": "east",
+    "de": "Ost",
+    "deGen": 1
+  },
+  {
+    "id": 77,
+    "catId": 5,
+    "cns": "西",
+    "cnt": "西",
+    "en": "west",
+    "de": "West",
+    "deGen": 1
+  },
+  {
+    "id": 78,
+    "catId": 5,
+    "cns": "南",
+    "cnt": "南",
+    "en": "south",
+    "de": "Süd",
+    "deGen": 1
+  },
+  {
+    "id": 79,
+    "catId": 5,
+    "cns": "北",
+    "cnt": "北",
+    "en": "north",
+    "de": "Nord",
+    "deGen": 1
+  },
+  {
+    "id": 80,
+    "catId": 5,
+    "cns": "东南",
+    "cnt": "東南",
+    "en": "southeast",
+    "de": "Südost",
+    "deGen": 1
+  },
+  {
+    "id": 81,
+    "catId": 5,
+    "cns": "东北",
+    "cnt": "東北",
+    "en": "northeast",
+    "de": "Nordost",
+    "deGen": 1
+  },
+  {
+    "id": 82,
+    "catId": 5,
+    "cns": "西南",
+    "cnt": "西南",
+    "en": "southwest",
+    "de": "Südwest",
+    "deGen": 1
+  },
+  {
+    "id": 83,
+    "catId": 5,
+    "cns": "西北",
+    "cnt": "西北",
+    "en": "northwest",
+    "de": "Nordwest",
+    "deGen": 1
+  },
+  {
+    "id": 84,
+    "catId": 5,
+    "cns": "中间",
+    "cnt": "中間",
+    "en": "middle",
+    "de": "Mitte",
+    "deGen": 2
+  },
+  {
+    "id": 85,
+    "catId": 5,
+    "cns": "上",
+    "cnt": "上",
+    "en": "up",
+    "de": "oben",
+    "deGen": 0
+  },
+  {
+    "id": 86,
+    "catId": 5,
+    "cns": "下",
+    "cnt": "下",
+    "en": "down",
+    "de": "unden",
+    "deGen": 0
+  },
+  {
+    "id": 87,
+    "catId": 5,
+    "cns": "左",
+    "cnt": "左",
+    "en": "left",
+    "de": "links",
+    "deGen": 0
+  },
+  {
+    "id": 88,
+    "catId": 5,
+    "cns": "右",
+    "cnt": "右",
+    "en": "right",
+    "de": "rechts",
+    "deGen": 0
+  },
+  {
+    "id": 89,
+    "catId": 5,
+    "cns": "前",
+    "cnt": "前",
+    "en": "front",
+    "de": "vorne",
+    "deGen": 0
+  },
+  {
+    "id": 90,
+    "catId": 5,
+    "cns": "后",
+    "cnt": "後",
+    "en": "rear",
+    "de": "hinten",
+    "deGen": 0
+  },
+  {
+    "id": 91,
+    "catId": 6,
+    "cns": "红色",
+    "cnt": "紅色",
+    "en": "red",
+    "de": "rot",
+    "deGen": 0
+  },
+  {
+    "id": 92,
+    "catId": 6,
+    "cns": "橙色",
+    "cnt": "橙色",
+    "en": "orange",
+    "de": "orangenfarbig",
+    "deGen": 0
+  },
+  {
+    "id": 93,
+    "catId": 6,
+    "cns": "黄色",
+    "cnt": "黃色",
+    "en": "yellow",
+    "de": "gelb",
+    "deGen": 0
+  },
+  {
+    "id": 94,
+    "catId": 6,
+    "cns": "绿色",
+    "cnt": "綠色",
+    "en": "green",
+    "de": "grün",
+    "deGen": 0
+  },
+  {
+    "id": 95,
+    "catId": 6,
+    "cns": "青色",
+    "cnt": "青色",
+    "en": "cyan",
+    "de": "cyan",
+    "deGen": 0
+  },
+  {
+    "id": 96,
+    "catId": 6,
+    "cns": "蓝色",
+    "cnt": "藍色",
+    "en": "blue",
+    "de": "blau",
+    "deGen": 0
+  },
+  {
+    "id": 97,
+    "catId": 6,
+    "cns": "紫色",
+    "cnt": "紫色",
+    "en": "violet",
+    "de": "violett",
+    "deGen": 0
+  },
+  {
+    "id": 98,
+    "catId": 6,
+    "cns": "白色",
+    "cnt": "白色",
+    "en": "white",
+    "de": "weiß",
+    "deGen": 0
+  },
+  {
+    "id": 99,
+    "catId": 6,
+    "cns": "黑色",
+    "cnt": "黑色",
+    "en": "black",
+    "de": "schwarz ",
+    "deGen": 0
+  },
+  {
+    "id": 100,
+    "catId": 6,
+    "cns": "棕色",
+    "cnt": "棕色",
+    "en": "brown",
+    "de": "braun ",
+    "deGen": 0
+  },
+  {
+    "id": 101,
+    "catId": 6,
+    "cns": "米色",
+    "cnt": "米色",
+    "en": "beige",
+    "de": "beige ",
+    "deGen": 0
+  },
+  {
+    "id": 102,
+    "catId": 6,
+    "cns": "粉红色",
+    "cnt": "粉紅色",
+    "en": "pink",
+    "de": "rosa ",
+    "deGen": 0
+  },
+  {
+    "id": 103,
+    "catId": 6,
+    "cns": "灰色",
+    "cnt": "灰色",
+    "en": "gray",
+    "de": "grau",
+    "deGen": 0
+  },
+  {
+    "id": 104,
+    "catId": 6,
+    "cns": "浅灰色",
+    "cnt": "淺灰色",
+    "en": "light gray",
+    "de": "hellgrau",
+    "deGen": 0
+  },
+  {
+    "id": 105,
+    "catId": 6,
+    "cns": "深灰色",
+    "cnt": "深灰色",
+    "en": "dark gray",
+    "de": "dunkelgrau",
+    "deGen": 0
+  },
+  {
+    "id": 106,
+    "catId": 6,
+    "cns": "咖啡色",
+    "cnt": "咖啡色",
+    "en": "coffee brown",
+    "de": "kaffeebraun",
+    "deGen": 0
+  },
+  {
+    "id": 107,
+    "catId": 14,
+    "cns": "程序员",
+    "cnt": "程序員",
+    "en": "programmer",
+    "de": "Programmierer",
+    "deGen": 1
+  },
+  {
+    "id": 108,
+    "catId": 14,
+    "cns": "工程师",
+    "cnt": "工程師",
+    "en": "engineer",
+    "de": "Ingenieur",
+    "deGen": 1
+  },
+  {
+    "id": 109,
+    "catId": 14,
+    "cns": "设计师",
+    "cnt": "設計師",
+    "en": "designer",
+    "de": "Designerin",
+    "deGen": 2
+  },
+  {
+    "id": 110,
+    "catId": 14,
+    "cns": "飞行员",
+    "cnt": "飛行員",
+    "en": "pilot",
+    "de": "Pilot",
+    "deGen": 1
+  },
+  {
+    "id": 111,
+    "catId": 14,
+    "cns": "驾驶员",
+    "cnt": "駕駛員",
+    "en": "driver",
+    "de": "Fahrer",
+    "deGen": 1
+  },
+  {
+    "id": 112,
+    "catId": 14,
+    "cns": "警察",
+    "cnt": "警察",
+    "en": "policeman",
+    "de": "Polizist",
+    "deGen": 1
+  },
+  {
+    "id": 113,
+    "catId": 14,
+    "cns": "记者",
+    "cnt": "記者",
+    "en": "journalist",
+    "de": "Journalistin",
+    "deGen": 2
+  },
+  {
+    "id": 114,
+    "catId": 14,
+    "cns": "编辑",
+    "cnt": "編輯",
+    "en": "editor",
+    "de": "Redakteur",
+    "deGen": 1
+  },
+  {
+    "id": 115,
+    "catId": 14,
+    "cns": "导演",
+    "cnt": "導演",
+    "en": "director",
+    "de": "Regisseur",
+    "deGen": 1
+  },
+  {
+    "id": 116,
+    "catId": 14,
+    "cns": "男演员",
+    "cnt": "男演員",
+    "en": "actor",
+    "de": "Schauspieler",
+    "deGen": 1
+  },
+  {
+    "id": 117,
+    "catId": 14,
+    "cns": "女演员",
+    "cnt": "女演員",
+    "en": "actress",
+    "de": "Schauspielerin",
+    "deGen": 2
+  },
+  {
+    "id": 118,
+    "catId": 14,
+    "cns": "摄影师",
+    "cnt": "攝影師",
+    "en": "photographer",
+    "de": "Fotograf",
+    "deGen": 1
+  },
+  {
+    "id": 119,
+    "catId": 14,
+    "cns": "学者",
+    "cnt": "學者",
+    "en": "scholar",
+    "de": "Gelehrter",
+    "deGen": 1
+  },
+  {
+    "id": 120,
+    "catId": 14,
+    "cns": "翻译家",
+    "cnt": "翻譯家",
+    "en": "translator",
+    "de": "Übersetzer",
+    "deGen": 1
+  },
+  {
+    "id": 121,
+    "catId": 14,
+    "cns": "口译员",
+    "cnt": "口譯員",
+    "en": "interpreter",
+    "de": "Dolmetscher",
+    "deGen": 1
+  },
+  {
+    "id": 122,
+    "catId": 14,
+    "cns": "歌手",
+    "cnt": "歌手",
+    "en": "singer",
+    "de": "Sängerin",
+    "deGen": 2
+  },
+  {
+    "id": 123,
+    "catId": 14,
+    "cns": "模特",
+    "cnt": "模特",
+    "en": "model",
+    "de": "Modell",
+    "deGen": 3
+  },
+  {
+    "id": 124,
+    "catId": 14,
+    "cns": "店员",
+    "cnt": "店員",
+    "en": "salesman",
+    "de": "Verkäufer",
+    "deGen": 1
+  },
+  {
+    "id": 125,
+    "catId": 14,
+    "cns": "邮差",
+    "cnt": "郵差",
+    "en": "postman",
+    "de": "Briefträger",
+    "deGen": 1
+  },
+  {
+    "id": 126,
+    "catId": 14,
+    "cns": "艺术家",
+    "cnt": "藝術家",
+    "en": "artist",
+    "de": "Künstler",
+    "deGen": 1
+  },
+  {
+    "id": 127,
+    "catId": 14,
+    "cns": "音乐家",
+    "cnt": "音樂家",
+    "en": "musician",
+    "de": "Musikerin",
+    "deGen": 2
+  },
+  {
+    "id": 128,
+    "catId": 14,
+    "cns": "画家",
+    "cnt": "畫家",
+    "en": "painter",
+    "de": "Kunstmaler",
+    "deGen": 1
+  },
+  {
+    "id": 129,
+    "catId": 14,
+    "cns": "医生",
+    "cnt": "醫生",
+    "en": "doctor",
+    "de": "Arzt",
+    "deGen": 1
+  },
+  {
+    "id": 130,
+    "catId": 14,
+    "cns": "护士",
+    "cnt": "護士",
+    "en": "nurse",
+    "de": "Krankenpfleger",
+    "deGen": 1
+  },
+  {
+    "id": 131,
+    "catId": 14,
+    "cns": "律师",
+    "cnt": "律師",
+    "en": "lawyer",
+    "de": "Anwalt",
+    "deGen": 1
+  },
+  {
+    "id": 132,
+    "catId": 14,
+    "cns": "商人",
+    "cnt": "商人",
+    "en": "businessman",
+    "de": "Geschäftsmann",
+    "deGen": 1
+  },
+  {
+    "id": 133,
+    "catId": 14,
+    "cns": "军人",
+    "cnt": "軍人",
+    "en": "soldier",
+    "de": "Soldat",
+    "deGen": 1
+  },
+  {
+    "id": 134,
+    "catId": 14,
+    "cns": "园丁",
+    "cnt": "園丁",
+    "en": "gardener",
+    "de": "Gärtner",
+    "deGen": 1
+  },
+  {
+    "id": 135,
+    "catId": 14,
+    "cns": "工人",
+    "cnt": "工人",
+    "en": "worker",
+    "de": "Arbeiter",
+    "deGen": 1
+  },
+  {
+    "id": 136,
+    "catId": 14,
+    "cns": "厨师",
+    "cnt": "廚師",
+    "en": "chef",
+    "de": "Koch",
+    "deGen": 1
+  },
+  {
+    "id": 137,
+    "catId": 14,
+    "cns": "宇航员",
+    "cnt": "宇航員",
+    "en": "astronaut",
+    "de": "Astronaut",
+    "deGen": 1
+  },
+  {
+    "id": 138,
+    "catId": 14,
+    "cns": "公务员",
+    "cnt": "公務員",
+    "en": "civil servant",
+    "de": "Beamtin",
+    "deGen": 2
+  },
+  {
+    "id": 139,
+    "catId": 14,
+    "cns": "建筑师",
+    "cnt": "建築師",
+    "en": "architect",
+    "de": "Architekt",
+    "deGen": 1
+  },
+  {
+    "id": 140,
+    "catId": 14,
+    "cns": "面包师",
+    "cnt": "麵包師",
+    "en": "baker",
+    "de": "Bäcker",
+    "deGen": 1
+  },
+  {
+    "id": 141,
+    "catId": 14,
+    "cns": "法官",
+    "cnt": "法官",
+    "en": "judge",
+    "de": "Richterin",
+    "deGen": 2
+  },
+  {
+    "id": 142,
+    "catId": 14,
+    "cns": "农民",
+    "cnt": "農民",
+    "en": "farmer",
+    "de": "Landwirt",
+    "deGen": 1
+  },
+  {
+    "id": 143,
+    "catId": 14,
+    "cns": "教师",
+    "cnt": "教師",
+    "en": "teacher",
+    "de": "Lehrerin",
+    "deGen": 2
+  },
+  {
+    "id": 144,
+    "catId": 14,
+    "cns": "机械师",
+    "cnt": "機械師",
+    "en": "mechanic",
+    "de": "Mechaniker",
+    "deGen": 1
+  },
+  {
+    "id": 145,
+    "catId": 14,
+    "cns": "肉贩",
+    "cnt": "肉販",
+    "en": "butcher",
+    "de": "Metzger",
+    "deGen": 1
+  },
+  {
+    "id": 146,
+    "catId": 14,
+    "cns": "办公室文员",
+    "cnt": "辦公室文員",
+    "en": "office clerk",
+    "de": "Bürokauffrau",
+    "deGen": 2
+  },
+  {
+    "id": 147,
+    "catId": 14,
+    "cns": "秘书",
+    "cnt": "秘書",
+    "en": "secretary",
+    "de": "Sekretärin",
+    "deGen": 2
+  },
+  {
+    "id": 148,
+    "catId": 14,
+    "cns": "服务员",
+    "cnt": "服務員",
+    "en": "waiter",
+    "de": "Kellner",
+    "deGen": 1
+  },
+  {
+    "id": 149,
+    "catId": 14,
+    "cns": "牙医",
+    "cnt": "牙醫",
+    "en": "dentist",
+    "de": "Zahnarzt",
+    "deGen": 1
+  },
+  {
+    "id": 150,
+    "catId": 14,
+    "cns": "兽医",
+    "cnt": "獸醫",
+    "en": "vet",
+    "de": "Tierarzt",
+    "deGen": 1
+  },
+  {
+    "id": 151,
+    "catId": 14,
+    "cns": "渔民",
+    "cnt": "漁民",
+    "en": "fisherman",
+    "de": "Fischer",
+    "deGen": 1
+  },
+  {
+    "id": 152,
+    "catId": 14,
+    "cns": "理发师",
+    "cnt": "理髮師",
+    "en": "hairdresser",
+    "de": "Friseurin",
+    "deGen": 2
+  },
+  {
+    "id": 153,
+    "catId": 14,
+    "cns": "科学家",
+    "cnt": "科學家",
+    "en": "scientist",
+    "de": "Wissenschaftler",
+    "deGen": 1
+  },
+  {
+    "id": 154,
+    "catId": 14,
+    "cns": "运动员",
+    "cnt": "運動員",
+    "en": "athlete",
+    "de": "Sportler",
+    "deGen": 1
+  },
+  {
+    "id": 155,
+    "catId": 14,
+    "cns": "退休人员",
+    "cnt": "退休人員",
+    "en": "retiree",
+    "de": "Rentner",
+    "deGen": 1
+  },
+  {
+    "id": 156,
+    "catId": 28,
+    "cns": "猴子",
+    "cnt": "猴子",
+    "en": "monkey",
+    "de": "Affe",
+    "deGen": 1
+  },
+  {
+    "id": 157,
+    "catId": 28,
+    "cns": "大猩猩",
+    "cnt": "大猩猩",
+    "en": "gorilla",
+    "de": "Gorilla",
+    "deGen": 1
+  },
+  {
+    "id": 158,
+    "catId": 28,
+    "cns": "老虎",
+    "cnt": "老虎",
+    "en": "tiger",
+    "de": "Tiger",
+    "deGen": 1
+  },
+  {
+    "id": 159,
+    "catId": 28,
+    "cns": "狮子",
+    "cnt": "獅子",
+    "en": "lion",
+    "de": "Löwe",
+    "deGen": 1
+  },
+  {
+    "id": 160,
+    "catId": 28,
+    "cns": "豹",
+    "cnt": "豹",
+    "en": "leopard",
+    "de": "Leopard",
+    "deGen": 1
+  },
+  {
+    "id": 161,
+    "catId": 28,
+    "cns": "狐狸",
+    "cnt": "狐狸",
+    "en": "fox",
+    "de": "Fuchs",
+    "deGen": 1
+  },
+  {
+    "id": 162,
+    "catId": 28,
+    "cns": "大象",
+    "cnt": "大象",
+    "en": "elephant",
+    "de": "Elefant",
+    "deGen": 1
+  },
+  {
+    "id": 163,
+    "catId": 28,
+    "cns": "长颈鹿",
+    "cnt": "長頸鹿",
+    "en": "giraffe",
+    "de": "Giraffe",
+    "deGen": 2
+  },
+  {
+    "id": 164,
+    "catId": 28,
+    "cns": "狗",
+    "cnt": "狗",
+    "en": "dog",
+    "de": "Hund",
+    "deGen": 1
+  },
+  {
+    "id": 165,
+    "catId": 28,
+    "cns": "猫",
+    "cnt": "貓",
+    "en": "cat",
+    "de": "Katze",
+    "deGen": 2
+  },
+  {
+    "id": 166,
+    "catId": 28,
+    "cns": "熊",
+    "cnt": "熊",
+    "en": "bear",
+    "de": "Bär",
+    "deGen": 1
+  },
+  {
+    "id": 167,
+    "catId": 28,
+    "cns": "北极熊",
+    "cnt": "北極熊",
+    "en": "polar bear",
+    "de": "Eisbär",
+    "deGen": 1
+  },
+  {
+    "id": 168,
+    "catId": 28,
+    "cns": "熊猫",
+    "cnt": "熊貓",
+    "en": "panda",
+    "de": "Panda",
+    "deGen": 1
+  },
+  {
+    "id": 169,
+    "catId": 28,
+    "cns": "狼",
+    "cnt": "狼",
+    "en": "wolf",
+    "de": "Wolf",
+    "deGen": 1
+  },
+  {
+    "id": 170,
+    "catId": 28,
+    "cns": "山羊",
+    "cnt": "山羊",
+    "en": "goat",
+    "de": "Ziege",
+    "deGen": 2
+  },
+  {
+    "id": 171,
+    "catId": 28,
+    "cns": "绵羊",
+    "cnt": "綿羊",
+    "en": "sheep",
+    "de": "Schaf",
+    "deGen": 3
+  },
+  {
+    "id": 172,
+    "catId": 28,
+    "cns": "鹿",
+    "cnt": "鹿",
+    "en": "deer",
+    "de": "Hirsch",
+    "deGen": 1
+  },
+  {
+    "id": 173,
+    "catId": 28,
+    "cns": "奶牛",
+    "cnt": "奶牛",
+    "en": "cow",
+    "de": "Kuh",
+    "deGen": 2
+  },
+  {
+    "id": 174,
+    "catId": 28,
+    "cns": "公牛",
+    "cnt": "公牛",
+    "en": "bull",
+    "de": "Stier",
+    "deGen": 1
+  },
+  {
+    "id": 175,
+    "catId": 28,
+    "cns": "老鼠",
+    "cnt": "老鼠",
+    "en": "rat",
+    "de": "Ratte",
+    "deGen": 2
+  },
+  {
+    "id": 176,
+    "catId": 28,
+    "cns": "兔子",
+    "cnt": "兔子",
+    "en": "rabbit",
+    "de": "Hase",
+    "deGen": 1
+  },
+  {
+    "id": 177,
+    "catId": 28,
+    "cns": "猪",
+    "cnt": "豬",
+    "en": "pig",
+    "de": "Schwein",
+    "deGen": 3
+  },
+  {
+    "id": 178,
+    "catId": 28,
+    "cns": "马",
+    "cnt": "馬",
+    "en": "horse",
+    "de": "Pferd",
+    "deGen": 3
+  },
+  {
+    "id": 179,
+    "catId": 28,
+    "cns": "驴",
+    "cnt": "驢",
+    "en": "donkey",
+    "de": "Esel",
+    "deGen": 1
+  },
+  {
+    "id": 180,
+    "catId": 28,
+    "cns": "考拉",
+    "cnt": "考拉",
+    "en": "koala",
+    "de": "Koala",
+    "deGen": 1
+  },
+  {
+    "id": 181,
+    "catId": 28,
+    "cns": "骆驼",
+    "cnt": "駱駝",
+    "en": "camel",
+    "de": "Kamel",
+    "deGen": 3
+  },
+  {
+    "id": 182,
+    "catId": 28,
+    "cns": "犀牛",
+    "cnt": "犀牛",
+    "en": "rhinoceros",
+    "de": "Nashorn",
+    "deGen": 3
+  },
+  {
+    "id": 183,
+    "catId": 28,
+    "cns": "袋鼠",
+    "cnt": "袋鼠",
+    "en": "kangaroo",
+    "de": "Känguru",
+    "deGen": 3
+  },
+  {
+    "id": 184,
+    "catId": 28,
+    "cns": "斑马",
+    "cnt": "斑馬",
+    "en": "zebra",
+    "de": "Zebra",
+    "deGen": 3
+  },
+  {
+    "id": 185,
+    "catId": 28,
+    "cns": "海豚",
+    "cnt": "海豚",
+    "en": "dolphin",
+    "de": "Delfin",
+    "deGen": 1
+  },
+  {
+    "id": 186,
+    "catId": 28,
+    "cns": "蝙蝠",
+    "cnt": "蝙蝠",
+    "en": "bat",
+    "de": "Fledermaus",
+    "deGen": 2
+  },
+  {
+    "id": 187,
+    "catId": 29,
+    "cns": "蜜蜂",
+    "cnt": "蜜蜂",
+    "en": "bee",
+    "de": "Biene",
+    "deGen": 2
+  },
+  {
+    "id": 188,
+    "catId": 29,
+    "cns": "蚂蚁",
+    "cnt": "螞蟻",
+    "en": "ant",
+    "de": "Ameise",
+    "deGen": 2
+  },
+  {
+    "id": 189,
+    "catId": 29,
+    "cns": "蜘蛛",
+    "cnt": "蜘蛛",
+    "en": "spider",
+    "de": "Spinne",
+    "deGen": 2
+  },
+  {
+    "id": 190,
+    "catId": 29,
+    "cns": "蝴蝶",
+    "cnt": "蝴蝶",
+    "en": "butterfly",
+    "de": "Schmetterling",
+    "deGen": 1
+  },
+  {
+    "id": 191,
+    "catId": 29,
+    "cns": "蜻蜓",
+    "cnt": "蜻蜓",
+    "en": "dragonfly",
+    "de": "Libelle",
+    "deGen": 2
+  },
+  {
+    "id": 192,
+    "catId": 29,
+    "cns": "苍蝇",
+    "cnt": "蒼蠅",
+    "en": "fly",
+    "de": "Fliege",
+    "deGen": 2
+  },
+  {
+    "id": 193,
+    "catId": 29,
+    "cns": "蜗牛",
+    "cnt": "蝸牛",
+    "en": "snails",
+    "de": "Schnecke",
+    "deGen": 2
+  },
+  {
+    "id": 194,
+    "catId": 29,
+    "cns": "青蛙",
+    "cnt": "青蛙",
+    "en": "frog",
+    "de": "Frosch",
+    "deGen": 1
+  },
+  {
+    "id": 195,
+    "catId": 29,
+    "cns": "企鹅",
+    "cnt": "企鵝",
+    "en": "penguin",
+    "de": "Pinguin",
+    "deGen": 1
+  },
+  {
+    "id": 196,
+    "catId": 29,
+    "cns": "麻雀",
+    "cnt": "麻雀",
+    "en": "sparrow",
+    "de": "Sperling",
+    "deGen": 1
+  },
+  {
+    "id": 197,
+    "catId": 29,
+    "cns": "鸽子",
+    "cnt": "鴿子",
+    "en": "dove",
+    "de": "Taube",
+    "deGen": 2
+  },
+  {
+    "id": 198,
+    "catId": 29,
+    "cns": "蛇",
+    "cnt": "蛇",
+    "en": "snake",
+    "de": "Schlange",
+    "deGen": 2
+  },
+  {
+    "id": 199,
+    "catId": 29,
+    "cns": "鱼",
+    "cnt": "魚",
+    "en": "fish",
+    "de": "Fisch",
+    "deGen": 1
+  },
+  {
+    "id": 200,
+    "catId": 29,
+    "cns": "鸟",
+    "cnt": "鳥",
+    "en": "bird",
+    "de": "Vogel",
+    "deGen": 1
+  },
+  {
+    "id": 201,
+    "catId": 29,
+    "cns": "母鸡",
+    "cnt": "母雞",
+    "en": "chicken",
+    "de": "Huhn",
+    "deGen": 3
+  },
+  {
+    "id": 202,
+    "catId": 29,
+    "cns": "公鸡",
+    "cnt": "公雞",
+    "en": "rooster",
+    "de": "Hahn",
+    "deGen": 1
+  },
+  {
+    "id": 203,
+    "catId": 29,
+    "cns": "鸭子",
+    "cnt": "鴨子",
+    "en": "duck",
+    "de": "Ente",
+    "deGen": 2
+  },
+  {
+    "id": 204,
+    "catId": 29,
+    "cns": "鹅",
+    "cnt": "鵝",
+    "en": "goose",
+    "de": "Gans",
+    "deGen": 2
+  },
+  {
+    "id": 205,
+    "catId": 29,
+    "cns": "孔雀",
+    "cnt": "孔雀",
+    "en": "peacock",
+    "de": "Pfau",
+    "deGen": 1
+  },
+  {
+    "id": 206,
+    "catId": 29,
+    "cns": "天鹅",
+    "cnt": "天鵝",
+    "en": "swan",
+    "de": "Schwan",
+    "deGen": 1
+  },
+  {
+    "id": 207,
+    "catId": 29,
+    "cns": "乌龟",
+    "cnt": "烏龜",
+    "en": "turtle",
+    "de": "Schildkröte",
+    "deGen": 2
+  },
+  {
+    "id": 208,
+    "catId": 29,
+    "cns": "刺猬",
+    "cnt": "刺猬",
+    "en": "hedgehog",
+    "de": "Igel",
+    "deGen": 1
+  },
+  {
+    "id": 209,
+    "catId": 29,
+    "cns": "鳄鱼",
+    "cnt": "鱷魚",
+    "en": "crocodile",
+    "de": "Krokodil",
+    "deGen": 3
+  }
+ ]

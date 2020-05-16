@@ -1,4 +1,4 @@
-import { Word } from './../../entities/word';
+import { WordView } from '../../entities/word-view';
 import { Card } from './../../entities/card';
 import { LanguageService } from './../../services/language.service';
 import { CacheService } from './../../services/cache.service';
@@ -15,7 +15,7 @@ import { ModalController } from '@ionic/angular';
 export class CardPage implements OnInit {
 
   //index: number;
-  words: Word[];
+  words: WordView[];
 
   constructor(private modalController: ModalController,
     public cacheService: CacheService,
@@ -30,7 +30,7 @@ export class CardPage implements OnInit {
     this.words = [];
     this.cacheService.settings.langSettings.forEach(l => {
       if (l.active) {
-        let word: Word = new Word();
+        let word: WordView = new WordView();
         word.content = this.languageService.getCardLabel(card, l.langData);
         word.speechCounter = 0;
         word.isChinese = this.languageService.isChinese(l.langData);
@@ -59,7 +59,7 @@ export class CardPage implements OnInit {
     this.reloadPage();
   }
 
-  onClickSpeech(w: Word) {
+  onClickSpeech(w: WordView) {
     var msg = new SpeechSynthesisUtterance();
     if (w.speechCounter === 0) msg.rate = 0.9;
     else {

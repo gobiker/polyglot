@@ -1,3 +1,4 @@
+import { CategoryView } from './../entities/category-view';
 import { LanguageService } from './language.service';
 import { Card } from './../entities/card';
 import { Category } from './../entities/category';
@@ -18,6 +19,7 @@ export class CacheService {
   settings: Settings = s;
   allCategories: Category[] = cat;
   allCards: Card[] = c;
+  categoryViews: CategoryView[] = [];
   curCards: Card[];
   curIndex: number;
   homeToken: boolean = false;
@@ -25,6 +27,12 @@ export class CacheService {
   constructor(public languageService: LanguageService) {
     console.log('Reading local json files');
     console.log(this.settings);
+    this.allCategories.forEach(cat => {
+      const n = this.allCards.filter(card => card.catId === cat.id).length;
+      if (n > 0) {
+        this.categoryViews.push(new CategoryView(cat, n));
+      }
+    })
   }
 
   genCurCards(i: number) {

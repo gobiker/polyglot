@@ -13,16 +13,18 @@
 </ion-header>
 
 
-<ion-content mode="ios">
+<ion-content mode="md">
   <div>
     <ion-card>
       <ion-item [routerLink]="['/card-list', 0]">
         <ion-label>{{cacheService.getUiLabel(UIL.AllWords)}}</ion-label>
+        <ion-badge>{{cacheService.allCards.length}}</ion-badge>
       </ion-item>
     </ion-card>
     <ion-list>
-      <ion-item *ngFor="let cat of this.cacheService.allCategories" [routerLink]="['/card-list', cat.id]">
-        <ion-label>{{cacheService.getCategoryLabelUi(cat)}}</ion-label>
+      <ion-item *ngFor="let cv of this.cacheService.categoryViews" [routerLink]="['/card-list', cv.category.id]">
+        <ion-label>{{cacheService.getCategoryLabelUi(cv.category)}}</ion-label>
+        <ion-badge>{{cv.wordCount}}</ion-badge>
       </ion-item>
     </ion-list>
 

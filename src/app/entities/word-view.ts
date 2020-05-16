@@ -1,5 +1,5 @@
-import { LangData } from './../types/lang-data.enum';
-export class Word {
+import { LangData } from '../types/lang-data.enum';
+export class WordView {
     content: string;
     article: string;
     langSpeech: string;
