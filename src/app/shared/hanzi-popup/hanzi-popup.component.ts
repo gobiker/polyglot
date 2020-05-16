@@ -71,7 +71,7 @@ export class HanziPopupComponent implements AfterViewInit, OnInit {
   }
 
   //for HTML event
-  onStatusChange(st: HanziStatus) {
+  onStatusChange(st: string) {
     console.log('in onStatusChange() ');
     this.curStatus = +st;
     this.runChar();

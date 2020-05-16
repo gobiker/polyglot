@@ -23,8 +23,6 @@
 
 <ion-content mode="ios">
 
-
-
   <div class="container">
     <div class="container2">
       <ion-segment #stsel [ngModel]="curStatus" (ionChange)="onStatusChange(stsel.value)">
@@ -32,6 +30,7 @@
           {{getStatusLabel(status.id)}}
         </ion-segment-button>
       </ion-segment>
+
       <div #chartarget id="chartarget">
       </div>
 
@@ -48,9 +47,7 @@
         </ion-buttons>
 
       </ion-toolbar>
-
     </div>
-
   </div>
 
 
