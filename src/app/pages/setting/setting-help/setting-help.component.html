@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header mode="md">
     <ion-toolbar>
         <ion-button size="large" fill="none" (click)="this.onClose()">
             <ion-icon name="close-outline"></ion-icon>
@@ -8,10 +8,12 @@
         </ion-title>
     </ion-toolbar>
 </ion-header>
-<ion-content>
+<ion-content mode="md">
     <div *ngIf="this.cacheService.settings.langUi===LangData.cns">
         <ion-card class="ion-padding-vertical">
-            <ion-title class="ion-text-center"> {{this.cacheService.getUiLabel(UIL.ScratchCardSettings)}}</ion-title>
+            <ion-toolbar class="ion-text-center">
+                <b> {{this.cacheService.getUiLabel(UIL.ScratchCardSettings)}}</b>
+            </ion-toolbar>
             <ion-item>语言前的<ion-icon name="checkbox"></ion-icon>: 启用或禁用此语言</ion-item>
             <ion-item>
                 <ion-icon name="eye-off-outline"></ion-icon>
@@ -26,7 +28,9 @@
             <br>
         </ion-card>
         <ion-card class="ion-padding-vertical">
-            <ion-title class="ion-text-center">{{this.cacheService.getUiLabel(UIL.LeniencyChinese)}}</ion-title>
+            <ion-toolbar class="ion-text-center">
+                <b> {{this.cacheService.getUiLabel(UIL.LeniencyChinese)}}</b>
+            </ion-toolbar>
             <br>
             <ion-item>
                 在进行汉字描红或默写时，容错率越高，程序判定为正确的标准越宽松，

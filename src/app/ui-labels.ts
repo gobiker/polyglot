@@ -32,9 +32,7 @@ export enum UIL {
   LeniencyChinese,
   TraceOver,
   Dictation,
-  Order,
-  Outline,
-  Write,
+  Demo,
   Filter,
   AllWords,
   SelectAll,
@@ -127,9 +125,7 @@ export const UILABELS: { id: UIL, en: string, zh_CN: string, zh_TW: string, de: 
   {
     id: UIL.Dictation, en: 'Dictation', zh_CN: '默写', zh_TW: '默寫', de: 'Diktat'
   },
-  { id: UIL.Order, en: 'Demo', zh_CN: '笔顺', zh_TW: '筆順', de: 'Demo' },
-  { id: UIL.Outline, en: 'Trace over', zh_CN: '描红', zh_TW: '描紅', de: 'nach Vorlage' },
-  { id: UIL.Write, en: 'Dictation', zh_CN: '默写', zh_TW: '默寫', de: 'Diktat' },
+  { id: UIL.Demo, en: 'Demo', zh_CN: '笔顺', zh_TW: '筆順', de: 'Demo' },
   { id: UIL.Filter, en: 'filter', zh_CN: '词语筛选', zh_TW: '詞語篩選', de: 'Filter' },
   { id: UIL.SelectAll, en: 'select all', zh_CN: '全部选中', zh_TW: '全部選中', de: 'Alles aktivieren' },
   { id: UIL.ClearAll, en: 'clear all', zh_CN: '全部清除', zh_TW: '全部清除', de: 'Alles deaktivieren' },

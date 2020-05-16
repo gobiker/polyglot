@@ -175,11 +175,11 @@ export class HanziPopupComponent implements AfterViewInit, OnInit {
   getStatusLabel(s: HanziStatus) {
     switch (s) {
       case HanziStatus.BiShun:
-        return this.cacheService.getUiLabel(UIL.Order);
+        return this.cacheService.getUiLabel(UIL.Demo);
       case HanziStatus.MiaoHong:
-        return this.cacheService.getUiLabel(UIL.Outline);
+        return this.cacheService.getUiLabel(UIL.TraceOver);
       case HanziStatus.MoXie:
-        return this.cacheService.getUiLabel(UIL.Write);
+        return this.cacheService.getUiLabel(UIL.Dictation);
     }
   }
 }

@@ -9,55 +9,48 @@
           </ion-button>
         </ion-buttons>
       </ion-col>
-      <!--<<ion-col *ngIf="this.chars.length > 1 && !inMoXie()">
-        <ion-select #zisel [ngModel]="curIndex" interface="action-sheet" (ionChange)="onChangeChar(zisel.value)"
-          [cancelText]="cacheService.getUiLabel(UIL.Cancel)" text-center>
-          <ion-select-option *ngFor="let ch of this.chars; let i = index" [value]="i">{{chars[i]}}</ion-select-option>
-        </ion-select>
-      </ion-col>
-      ion-col *ngIf="inMoXie()">
-        <div text-center><b>{{pinyins[curIndex]}}</b></div>
-      </ion-col>-->
-      <ion-col>
+
+      <!--<ion-col>
         <ion-select #stsel [ngModel]="curStatus" interface="action-sheet" (ionChange)="onStatusChange(stsel.value)"
           [cancelText]="cacheService.getUiLabel(UIL.Cancel)">
-          <ion-select-option *ngFor="let status of hanziStatuses" [value]="status.id">{{getStatusLabel(status.id)}}</ion-select-option>
+          <ion-select-option *ngFor="let status of hanziStatuses" 
+          [value]="status.id">{{getStatusLabel(status.id)}}</ion-select-option>
         </ion-select>
-      </ion-col>
+      </ion-col>-->
     </ion-row>
   </ion-toolbar>
 </ion-header>
 
+<ion-content mode="ios">
 
 
 
-<ion-content padding>
-
-  <!--<ion-segment #charsseg *ngIf="this.chars.length > 1 && !inMoXie()" (ionChange)="changeChar(charsseg.value)" [ngModel]="curIndex">
-    <ion-segment-button *ngFor="let ch of this.chars; let i = index" [value]="i">
-      {{ch}}
-    </ion-segment-button>
-  </ion-segment>
-  <ion-label *ngIf="inMoXie()">
-    {{this.moxieWrited}}
-  </ion-label>-->
   <div class="container">
-    <div class="container2"> 
+    <div class="container2">
+      <ion-segment #stsel [ngModel]="curStatus" (ionChange)="onStatusChange(stsel.value)">
+        <ion-segment-button *ngFor="let status of hanziStatuses" [value]="status.id">
+          {{getStatusLabel(status.id)}}
+        </ion-segment-button>
+      </ion-segment>
       <div #chartarget id="chartarget">
       </div>
 
       <ion-toolbar *ngIf="this.chars.length > 1">
         <ion-buttons slot="start">
-          <ion-button (click)="this.runLastChar()"><ion-icon name="arrow-undo-outline"></ion-icon></ion-button>
+          <ion-button (click)="this.runLastChar()">
+            <ion-icon name="arrow-undo-outline"></ion-icon>
+          </ion-button>
         </ion-buttons>
         <ion-buttons slot="end">
-          <ion-button (click)="this.runNextChar()"><ion-icon name="arrow-redo-outline"></ion-icon></ion-button>
+          <ion-button (click)="this.runNextChar()">
+            <ion-icon name="arrow-redo-outline"></ion-icon>
+          </ion-button>
         </ion-buttons>
 
       </ion-toolbar>
-      
+
     </div>
-    
+
   </div>
 
 

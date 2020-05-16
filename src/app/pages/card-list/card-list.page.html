@@ -1,21 +1,15 @@
-<ion-header>
+<ion-header mode="md">
   <ion-toolbar>
-    <ion-row class="ion-align-items-center">
-      <ion-col size="3">
-        <ion-button expand="full" fill="none" [routerLink]="['/home']">
-          <ion-icon name="arrow-back-outline"></ion-icon>
-        </ion-button>      </ion-col>
-      <ion-col size="9" class="ion-text-end">
-        <ion-title>{{this.title}}</ion-title>
-      </ion-col>
-    </ion-row>
+    <ion-button slot="start" fill="none" [routerLink]="['/home']">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-button>
+    <ion-title slot="end">{{this.title}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-virtual-scroll [items]="this.cards">
-    <ion-item *virtualItem="let card; let i=index;" 
-    (click)="onClick(i)">
+    <ion-item *virtualItem="let card; let i=index;" (click)="onClick(i)">
       <ion-label>{{cacheService.getCardLabelUi(card)}}</ion-label>
     </ion-item>
   </ion-virtual-scroll>
