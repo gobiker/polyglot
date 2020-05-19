@@ -14,7 +14,7 @@
             "langSpeechIndex": 0
         },
         {
-            "active": true,
+            "active": false,
             "hide": true,
             "langData": 2,
             "langSpeechIndex": 1

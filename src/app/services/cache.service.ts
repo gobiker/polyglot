@@ -16,7 +16,7 @@ import { LangData } from '../types/lang-data.enum';
   providedIn: 'root'
 })
 export class CacheService {
-  settings: Settings = s;
+  settings: Settings;
   allCategories: Category[] = cat;
   allCards: Card[] = c;
   categoryViews: CategoryView[] = [];
@@ -25,7 +25,15 @@ export class CacheService {
   homeToken: boolean = false;
 
   constructor(public languageService: LanguageService) {
-    console.log('Reading local json files');
+    const sstr = localStorage.settings;
+    if (sstr) {
+      console.log('Reading saved json files');
+      this.settings = JSON.parse(sstr);
+    } else {
+      console.log('Reading default json files');
+      this.settings = s;
+    }
+
     console.log(this.settings);
     this.allCategories.forEach(cat => {
       const n = this.allCards.filter(card => card.catId === cat.id).length;

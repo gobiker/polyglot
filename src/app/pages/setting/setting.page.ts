@@ -36,11 +36,12 @@ export class SettingPage implements OnInit {
 
   private save() {
     console.log('save settings');
+    localStorage.setItem("settings", JSON.stringify(this.cacheService.settings));
   }
 
-  goBack(): void {
+  onClickBack(): void {
     this.save();
-    this.location.back();
+    //this.location.back();
   }
 
   doReorder(ev: any) {
